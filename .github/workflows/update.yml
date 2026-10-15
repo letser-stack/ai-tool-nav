@@ -12,9 +12,9 @@ jobs:
         with: {node-version: 20}
       - run: npm ci || npm i
       - run: node scripts/fetch-hot.mjs
-        env: {GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}', PH_TOKEN: '${{ secrets.PH_TOKEN }}'}
+        env: {GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}', PH_TOKEN: '${{ secrets.PH_TOKEN }}', XAI_API_KEY: '${{ secrets.XAI_API_KEY }}'}
       - run: npm run build
       - run: |
           git config user.name bot && git config user.email bot@users.noreply.github.com
-          git add data/hot.json && git commit -m "update hot $(date -u +%FT%TZ)" || echo nochange
+          git add data/hot.json data/llm-cache.json && git commit -m "update hot $(date -u +%FT%TZ)" || echo nochange
           git push
