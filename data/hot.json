@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-15T15:37:07.485Z",
+ "generatedAt": "2026-10-15T15:43:34.619Z",
  "errors": [
   "Product Hunt skipped: no PH_TOKEN"
  ],
- "llmError": "XAI_API_KEY missing; LLM enrichment skipped",
+ "llmError": "Error: xAI 403 {\"code\":\"permission-denied\",\"error\":\"Your team 681eb16e-0708-4753-9992-e127efc9fee7 has either used all available credit",
  "count": 100,
  "items": [
   {
@@ -11,10 +11,10 @@
    "name": "outcrawlai/scout",
    "desc": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
    "url": "https://github.com/outcrawlai/scout",
-   "metric": 355,
+   "metric": 354,
    "metricLabel": "stars/天（共803）",
    "created": "2026-10-13T09:18:55Z",
-   "score": 7.54
+   "score": 7.53
   },
   {
    "source": "GitHub",
@@ -22,9 +22,9 @@
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "metric": 603,
-   "metricLabel": "stars/天（共2324）",
+   "metricLabel": "stars/天（共2326）",
    "created": "2026-10-11T19:10:25Z",
-   "score": 6.53
+   "score": 6.52
   },
   {
    "source": "HN",
@@ -34,7 +34,7 @@
    "metric": 171,
    "metricLabel": "points",
    "created": "2026-10-13T10:08:34Z",
-   "score": 6.33
+   "score": 6.32
   },
   {
    "source": "GitHub",
@@ -44,7 +44,7 @@
    "metric": 291,
    "metricLabel": "stars/天（共951）",
    "created": "2026-10-12T09:19:02Z",
-   "score": 6.33
+   "score": 6.32
   },
   {
    "source": "HN",
@@ -54,7 +54,7 @@
    "metric": 117,
    "metricLabel": "points",
    "created": "2026-10-14T01:09:13Z",
-   "score": 6.23
+   "score": 6.22
   },
   {
    "source": "HN",
@@ -81,10 +81,10 @@
    "name": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "desc": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "metric": 64,
-   "metricLabel": "stars/天（共143）",
+   "metric": 65,
+   "metricLabel": "stars/天（共146）",
    "created": "2026-10-13T10:13:21Z",
-   "score": 5.49
+   "score": 5.5
   },
   {
    "source": "HN",
@@ -94,7 +94,7 @@
    "metric": 77,
    "metricLabel": "points",
    "created": "2026-10-13T19:50:31Z",
-   "score": 5.3
+   "score": 5.29
   },
   {
    "source": "HN",
@@ -104,7 +104,7 @@
    "metric": 46,
    "metricLabel": "points",
    "created": "2026-10-14T15:00:41Z",
-   "score": 4.93
+   "score": 4.92
   },
   {
    "source": "HN",
@@ -214,7 +214,7 @@
    "metric": 20,
    "metricLabel": "stars/天（共67）",
    "created": "2026-10-12T08:08:16Z",
-   "score": 3.51
+   "score": 3.5
   },
   {
    "source": "GitHub",
@@ -251,8 +251,8 @@
    "name": "LosaLosSantos/aurelio-finance",
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
-   "metric": 384,
-   "metricLabel": "stars/天（共3378）",
+   "metric": 383,
+   "metricLabel": "stars/天（共3379）",
    "created": "2026-10-06T20:14:19Z",
    "score": 3
   },
@@ -304,7 +304,7 @@
    "metric": 81,
    "metricLabel": "points",
    "created": "2026-10-08T16:34:13Z",
-   "score": 2.59
+   "score": 2.58
   },
   {
    "source": "GitHub",
@@ -344,7 +344,7 @@
    "metric": 47,
    "metricLabel": "points",
    "created": "2026-10-08T21:00:55Z",
-   "score": 2.19
+   "score": 2.18
   },
   {
    "source": "HN",
@@ -354,7 +354,7 @@
    "metric": 41,
    "metricLabel": "points",
    "created": "2026-10-09T00:02:19Z",
-   "score": 2.11
+   "score": 2.1
   },
   {
    "source": "HN",
@@ -370,10 +370,10 @@
    "source": "HF-spaces",
    "name": "autotrust/shorts",
    "url": "https://huggingface.co/spaces/autotrust/shorts",
-   "metric": 48,
-   "metricLabel": "trending（likes 83）",
+   "metric": 50,
+   "metricLabel": "trending（likes 85）",
    "created": "2026-10-14T22:42:16.000Z",
-   "score": 1.93
+   "score": 1.98
   },
   {
    "source": "HN",
@@ -392,7 +392,7 @@
    "metric": 45,
    "metricLabel": "trending（likes 79）",
    "created": "2026-10-14T22:10:52.000Z",
-   "score": 1.84
+   "score": 1.83
   },
   {
    "source": "HN",
@@ -402,7 +402,7 @@
    "metric": 32,
    "metricLabel": "points",
    "created": "2026-10-08T18:11:52Z",
-   "score": 1.83
+   "score": 1.82
   },
   {
    "source": "HF-spaces",
@@ -646,7 +646,7 @@
    "metric": 677,
    "metricLabel": "trending（likes 775）",
    "created": "2026-10-07T07:07:30.000Z",
-   "score": 1.02
+   "score": 1.01
   },
   {
    "source": "GitHub",
@@ -654,7 +654,7 @@
    "desc": "Pi, the coding agent, compiled ahead of time to native code. Starts 3× sooner than Pi on Bun and uses about a third of its CPU.",
    "url": "https://github.com/opensec-git/Pi-Bolt",
    "metric": 26,
-   "metricLabel": "stars/天（共331）",
+   "metricLabel": "stars/天（共332）",
    "created": "2026-10-02T18:35:24Z",
    "score": 0.96
   },
@@ -702,7 +702,7 @@
    "desc": "dsh-sieve: context engineering & token optimization plugin for DeepSeek Harness (DSH) — tool output filtering, context pruning, progressive skill disclosure. 36% smaller payload in offline replay. DSH 上下文管理与 token 优化节省插件。",
    "url": "https://github.com/Sev7eEn7/dsh-sieve",
    "metric": 10,
-   "metricLabel": "stars/天（共108）",
+   "metricLabel": "stars/天（共109）",
    "created": "2026-10-04T12:30:42Z",
    "score": 0.92
   },
@@ -740,7 +740,7 @@
    "source": "HF-models",
    "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
    "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-   "metric": 383,
+   "metric": 381,
    "metricLabel": "trending（likes 490）",
    "created": "2026-10-08T01:47:26.000Z",
    "score": 0.87
@@ -772,7 +772,7 @@
    "metric": 13,
    "metricLabel": "stars/天（共163）",
    "created": "2026-10-02T20:45:48Z",
-   "score": 0.8
+   "score": 0.79
   },
   {
    "source": "GitHub",
@@ -854,8 +854,8 @@
    "source": "HF-models",
    "name": "speridlabs/iris-3b",
    "url": "https://huggingface.co/speridlabs/iris-3b",
-   "metric": 274,
-   "metricLabel": "trending（likes 279）",
+   "metric": 275,
+   "metricLabel": "trending（likes 280）",
    "created": "2026-10-05T14:51:15.000Z",
    "score": 0.51
   },
@@ -909,7 +909,7 @@
    "source": "HF-models",
    "name": "LiquidAI/d1-3B",
    "url": "https://huggingface.co/LiquidAI/d1-3B",
-   "metric": 217,
+   "metric": 216,
    "metricLabel": "trending（likes 415）",
    "created": "2026-10-05T09:55:28.000Z",
    "score": 0.42
@@ -918,8 +918,8 @@
    "source": "HF-models",
    "name": "fishaudio/drama-3",
    "url": "https://huggingface.co/fishaudio/drama-3",
-   "metric": 403,
-   "metricLabel": "trending（likes 411）",
+   "metric": 404,
+   "metricLabel": "trending（likes 412）",
    "created": "2026-10-01T04:34:57.000Z",
    "score": 0.34
   },
@@ -936,7 +936,7 @@
    "source": "HF-spaces",
    "name": "hugging-apps/bfs-best-face-swap",
    "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
-   "metric": 108,
+   "metric": 107,
    "metricLabel": "trending（likes 263）",
    "created": "2026-09-27T18:26:19.000Z",
    "score": 0.26
@@ -945,7 +945,7 @@
    "source": "HF-models",
    "name": "Cloudflare/clef",
    "url": "https://huggingface.co/Cloudflare/clef",
-   "metric": 253,
+   "metric": 252,
    "metricLabel": "trending（likes 2175）",
    "created": "2026-09-30T21:15:35.000Z",
    "score": 0.24
