@@ -1,27 +1,28 @@
 {
- "generatedAt": "2026-10-15T15:29:58.634Z",
+ "generatedAt": "2026-10-15T15:36:23.108Z",
  "errors": [
   "Product Hunt skipped: no PH_TOKEN"
  ],
- "count": 131,
+ "llmError": "XAI_API_KEY missing; LLM enrichment skipped",
+ "count": 100,
  "items": [
   {
    "source": "GitHub",
    "name": "outcrawlai/scout",
    "desc": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
    "url": "https://github.com/outcrawlai/scout",
-   "metric": 356,
+   "metric": 355,
    "metricLabel": "stars/天（共803）",
    "created": "2026-10-13T09:18:55Z",
-   "score": 7.55
+   "score": 7.54
   },
   {
    "source": "GitHub",
    "name": "onehumanbeing/esp32-iphone-agent",
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-   "metric": 604,
-   "metricLabel": "stars/天（共2322）",
+   "metric": 603,
+   "metricLabel": "stars/天（共2324）",
    "created": "2026-10-11T19:10:25Z",
    "score": 6.53
   },
@@ -81,7 +82,7 @@
    "desc": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "metric": 64,
-   "metricLabel": "stars/天（共142）",
+   "metricLabel": "stars/天（共143）",
    "created": "2026-10-13T10:13:21Z",
    "score": 5.49
   },
@@ -113,7 +114,7 @@
    "metric": 84,
    "metricLabel": "points",
    "created": "2026-10-12T23:21:12Z",
-   "score": 4.83
+   "score": 4.82
   },
   {
    "source": "HN",
@@ -133,7 +134,7 @@
    "metric": 419,
    "metricLabel": "points",
    "created": "2026-10-09T11:03:48Z",
-   "score": 4.45
+   "score": 4.44
   },
   {
    "source": "GitHub",
@@ -183,7 +184,7 @@
    "metric": 32,
    "metricLabel": "points",
    "created": "2026-10-13T17:52:57Z",
-   "score": 3.73
+   "score": 3.72
   },
   {
    "source": "GitHub",
@@ -223,7 +224,7 @@
    "metric": 25,
    "metricLabel": "stars/天（共102）",
    "created": "2026-10-11T12:42:59Z",
-   "score": 3.33
+   "score": 3.32
   },
   {
    "source": "HN",
@@ -233,7 +234,7 @@
    "metric": 21,
    "metricLabel": "points",
    "created": "2026-10-13T23:35:20Z",
-   "score": 3.12
+   "score": 3.11
   },
   {
    "source": "GitHub",
@@ -244,16 +245,6 @@
    "metricLabel": "stars/天（共168）",
    "created": "2026-10-10T08:59:18Z",
    "score": 3.01
-  },
-  {
-   "source": "HN",
-   "name": "Show HN: MemorySync – Memory for AI Agents",
-   "url": "https://memorysync.io/try",
-   "discuss": "https://news.ycombinator.com/item?id=50070688",
-   "metric": 22,
-   "metricLabel": "points",
-   "created": "2026-10-13T12:35:42Z",
-   "score": 3
   },
   {
    "source": "GitHub",
@@ -274,6 +265,16 @@
    "metricLabel": "stars/天（共64）",
    "created": "2026-10-11T17:06:36Z",
    "score": 3
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: MemorySync – Memory for AI Agents",
+   "url": "https://memorysync.io/try",
+   "discuss": "https://news.ycombinator.com/item?id=50070688",
+   "metric": 22,
+   "metricLabel": "points",
+   "created": "2026-10-13T12:35:42Z",
+   "score": 2.99
   },
   {
    "source": "GitHub",
@@ -382,14 +383,14 @@
    "metric": 47,
    "metricLabel": "trending（likes 82）",
    "created": "2026-10-14T22:42:16.000Z",
-   "score": 1.91
+   "score": 1.9
   },
   {
    "source": "HF-spaces",
    "name": "autotrust/news",
    "url": "https://huggingface.co/spaces/autotrust/news",
    "metric": 45,
-   "metricLabel": "trending（likes 78）",
+   "metricLabel": "trending（likes 79）",
    "created": "2026-10-14T22:10:52.000Z",
    "score": 1.84
   },
@@ -410,14 +411,14 @@
    "metric": 53,
    "metricLabel": "trending（likes 53）",
    "created": "2026-10-13T20:21:09.000Z",
-   "score": 1.77
+   "score": 1.76
   },
   {
    "source": "HF-models",
    "name": "autotrust/JEV-35B",
    "url": "https://huggingface.co/autotrust/JEV-35B",
-   "metric": 580,
-   "metricLabel": "trending（likes 940）",
+   "metric": 581,
+   "metricLabel": "trending（likes 942）",
    "created": "2026-10-11T01:22:03.000Z",
    "score": 1.63
   },
@@ -439,7 +440,7 @@
    "metric": 12,
    "metricLabel": "stars/天（共97）",
    "created": "2026-10-07T19:53:26Z",
-   "score": 1.58
+   "score": 1.57
   },
   {
    "source": "GitHub",
@@ -455,8 +456,8 @@
    "source": "HF-models",
    "name": "LiquidAI/LFM2.5-24B-A2B",
    "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
-   "metric": 368,
-   "metricLabel": "trending（likes 371）",
+   "metric": 370,
+   "metricLabel": "trending（likes 373）",
    "created": "2026-10-12T05:35:46.000Z",
    "score": 1.55
   },
@@ -476,7 +477,7 @@
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "metric": 260,
-   "metricLabel": "stars/天（共3437）",
+   "metricLabel": "stars/天（共3438）",
    "created": "2026-10-02T09:57:40Z",
    "score": 1.49
   },
@@ -488,14 +489,14 @@
    "metric": 14,
    "metricLabel": "stars/天（共125）",
    "created": "2026-10-06T21:09:40Z",
-   "score": 1.45
+   "score": 1.44
   },
   {
    "source": "HF-models",
    "name": "Qwen/Qwen-Image-2.1-Turbo",
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
    "metric": 739,
-   "metricLabel": "trending（likes 854）",
+   "metricLabel": "trending（likes 855）",
    "created": "2026-10-09T04:50:01.000Z",
    "score": 1.38
   },
@@ -535,7 +536,7 @@
    "desc": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
    "url": "https://github.com/Folkbench/folkbench",
    "metric": 84,
-   "metricLabel": "stars/天（共1109）",
+   "metricLabel": "stars/天（共1110）",
    "created": "2026-10-02T09:50:45Z",
    "score": 1.21
   },
@@ -547,7 +548,7 @@
    "metric": 10,
    "metricLabel": "stars/天（共91）",
    "created": "2026-10-06T09:04:48Z",
-   "score": 1.21
+   "score": 1.2
   },
   {
    "source": "GitHub",
@@ -555,7 +556,7 @@
    "desc": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
    "url": "https://github.com/Fazmin/AILearningGuide",
    "metric": 17,
-   "metricLabel": "stars/天（共179）",
+   "metricLabel": "stars/天（共180）",
    "created": "2026-10-05T02:29:23Z",
    "score": 1.19
   },
@@ -580,15 +581,6 @@
    "score": 1.16
   },
   {
-   "source": "HF-models",
-   "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "metric": 393,
-   "metricLabel": "trending（likes 478）",
-   "created": "2026-10-09T16:30:48.000Z",
-   "score": 1.12
-  },
-  {
    "source": "GitHub",
    "name": "THUROI0787/absent-author",
    "desc": "Research and writing can be automated. Authorship cannot. Evidence list + agent skills for spotting AI-produced papers no human stood behind.",
@@ -606,6 +598,15 @@
    "metric": 7,
    "metricLabel": "stars/天（共62）",
    "created": "2026-10-06T16:12:42Z",
+   "score": 1.11
+  },
+  {
+   "source": "HF-models",
+   "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "metric": 393,
+   "metricLabel": "trending（likes 478）",
+   "created": "2026-10-09T16:30:48.000Z",
    "score": 1.11
   },
   {
@@ -665,7 +666,7 @@
    "metric": 11,
    "metricLabel": "stars/天（共122）",
    "created": "2026-10-04T12:33:41Z",
-   "score": 0.96
+   "score": 0.95
   },
   {
    "source": "HF-models",
@@ -829,7 +830,7 @@
    "metric": 158,
    "metricLabel": "trending（likes 158）",
    "created": "2026-10-09T18:03:23.000Z",
-   "score": 0.6
+   "score": 0.59
   },
   {
    "source": "HF-models",
@@ -902,7 +903,7 @@
    "metric": 38,
    "metricLabel": "trending（likes 40）",
    "created": "2026-10-05T17:47:00.000Z",
-   "score": 0.44
+   "score": 0.43
   },
   {
    "source": "HF-models",
@@ -917,8 +918,8 @@
    "source": "HF-models",
    "name": "fishaudio/drama-3",
    "url": "https://huggingface.co/fishaudio/drama-3",
-   "metric": 402,
-   "metricLabel": "trending（likes 410）",
+   "metric": 403,
+   "metricLabel": "trending（likes 411）",
    "created": "2026-10-01T04:34:57.000Z",
    "score": 0.34
   },
@@ -962,8 +963,8 @@
    "source": "HF-spaces",
    "name": "arudradey/qwen-image-2.1-uncensored-aio-loras",
    "url": "https://huggingface.co/spaces/arudradey/qwen-image-2.1-uncensored-aio-loras",
-   "metric": 61,
-   "metricLabel": "trending（likes 292）",
+   "metric": 62,
+   "metricLabel": "trending（likes 293）",
    "created": "2026-09-26T11:44:26.000Z",
    "score": 0.16
   },
@@ -971,10 +972,10 @@
    "source": "HF-spaces",
    "name": "pablodawson/minimax-h3-360-orbit",
    "url": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit",
-   "metric": 35,
-   "metricLabel": "trending（likes 68）",
+   "metric": 37,
+   "metricLabel": "trending（likes 70）",
    "created": "2026-09-28T11:36:43.000Z",
-   "score": 0.14
+   "score": 0.15
   }
  ]
 }

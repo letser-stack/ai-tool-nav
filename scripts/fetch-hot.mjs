@@ -1,4 +1,5 @@
 import fs from 'fs';
+import {enrich} from './llm.mjs';
 const AI=/\b(ai|llm|gpt|agent|agents|agentic|rag|diffusion|transformer|mcp|claude|openai|gemini|llama|copilot|ml|neural|vlm|embedding|inference|prompt)\b/i;
 const now=Date.now(),day=864e5;
 const get=async(u,h={})=>{const r=await fetch(u,{headers:{'user-agent':'ai-nav-bot',...h},signal:AbortSignal.timeout(30000)});if(!r.ok)throw new Error(u+' '+r.status);return r.json();};
@@ -32,5 +33,7 @@ const by={};for(const i of items)(by[i.source]??=[]).push(i);
 for(const [s,arr] of Object.entries(by)){const v=arr.map(i=>Math.log1p(i.metric));const m=v.reduce((a,b)=>a+b,0)/v.length;const sd=Math.sqrt(v.reduce((a,b)=>a+(b-m)**2,0)/v.length)||1;
  arr.forEach((i,k)=>{const z=(v[k]-m)/sd;const age=Math.max(0,(now-Date.parse(i.created))/day);i.score=+((z+3)*W[s]*Math.exp(-age/7)*10).toFixed(2);});}
 items.sort((a,b)=>b.score-a.score);
-fs.writeFileSync('data/hot.json',JSON.stringify({generatedAt:new Date().toISOString(),errors,count:items.length,items:items.slice(0,100)},null,1));
+let top=items.slice(0,100);const L=await enrich(top);const llmError=L.err;console.log('llm calls',L.calls);
+top=top.filter(i=>i.isAITool!==false);
+fs.writeFileSync('data/hot.json',JSON.stringify({generatedAt:new Date().toISOString(),errors,llmError,count:top.length,items:top},null,1));
 console.log(items.length,'items',errors);items.slice(0,5).forEach(i=>console.log(i.score,i.source,i.name,i.metric,i.metricLabel));
