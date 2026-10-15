@@ -2,7 +2,7 @@ import fs from 'fs';
 const CACHE='data/llm-cache.json';
 const SC=['vibe-coding','no-code-apps','agents','game-dev','pm','content','image-design','video','audio','research'];
 export async function enrich(items){
-  const key=process.env.XAI_API_KEY, model=process.env.XAI_MODEL||'grok-3-mini';
+  const key=process.env.XAI_API_KEY, model=process.env.XAI_MODEL||'grok-4.20-0309-non-reasoning';
   const cache=fs.existsSync(CACHE)?JSON.parse(fs.readFileSync(CACHE)):{};
   let calls=0,err=null,usage={prompt:0,completion:0};
   for(const i of items){const id=i.source+':'+i.url;
