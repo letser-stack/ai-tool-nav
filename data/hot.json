@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T15:43:34.619Z",
+ "generatedAt": "2026-10-15T15:51:34.399Z",
  "errors": [
   "Product Hunt skipped: no PH_TOKEN"
  ],
- "llmError": "Error: xAI 403 {\"code\":\"permission-denied\",\"error\":\"Your team 681eb16e-0708-4753-9992-e127efc9fee7 has either used all available credit",
- "count": 100,
+ "llmError": null,
+ "count": 93,
  "items": [
   {
    "source": "GitHub",
@@ -14,17 +14,23 @@
    "metric": 354,
    "metricLabel": "stars/天（共803）",
    "created": "2026-10-13T09:18:55Z",
-   "score": 7.53
+   "score": 7.53,
+   "isAITool": true,
+   "intro": "Scout是Outcrawl开源的浏览器Agent，可自主控制浏览器完成网页交互、数据采集等任务。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
    "name": "onehumanbeing/esp32-iphone-agent",
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-   "metric": 603,
+   "metric": 602,
    "metricLabel": "stars/天（共2326）",
    "created": "2026-10-11T19:10:25Z",
-   "score": 6.52
+   "score": 6.52,
+   "isAITool": true,
+   "intro": "一个开源项目，利用廉价ESP32让AI模型（如OpenAI兼容的视觉模型）真实控制iPhone，通过AirPlay实现“眼睛”观察屏幕，USB HID实现“双手”操作，无需Mac、开发者账号或越狱。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -34,7 +40,10 @@
    "metric": 171,
    "metricLabel": "points",
    "created": "2026-10-13T10:08:34Z",
-   "score": 6.32
+   "score": 6.32,
+   "isAITool": true,
+   "intro": "pdftomp3.com/connect-ai 是一个利用用户已有OpenAI订阅将PDF/PPT/文本快速转为自然语音有声书的工具，支持多语言和音色选择。",
+   "scenario": "audio"
   },
   {
    "source": "GitHub",
@@ -42,9 +51,12 @@
    "desc": "A design system for AI applications. Material, physical, tactile, technical.",
    "url": "https://github.com/deeplethe/solid-glass",
    "metric": 291,
-   "metricLabel": "stars/天（共951）",
+   "metricLabel": "stars/天（共952）",
    "created": "2026-10-12T09:19:02Z",
-   "score": 6.32
+   "score": 6.32,
+   "isAITool": true,
+   "intro": "Solid Glass是一个专为AI应用打造的设计系统，强调物质感、物理触感和科技质感。",
+   "scenario": "image-design"
   },
   {
    "source": "HN",
@@ -54,7 +66,10 @@
    "metric": 117,
    "metricLabel": "points",
    "created": "2026-10-14T01:09:13Z",
-   "score": 6.22
+   "score": 6.22,
+   "isAITool": true,
+   "intro": "Blumify是一个追踪AI领袖观点和立场变化的工具，可实时关注他们的言论演变。",
+   "scenario": "research"
   },
   {
    "source": "HN",
@@ -64,17 +79,10 @@
    "metric": 118,
    "metricLabel": "points",
    "created": "2026-10-13T23:13:23Z",
-   "score": 6.17
-  },
-  {
-   "source": "HN",
-   "name": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
-   "url": "https://github.com/bherbruck/solidcraft",
-   "discuss": "https://news.ycombinator.com/item?id=50064840",
-   "metric": 141,
-   "metricLabel": "points",
-   "created": "2026-10-13T00:11:04Z",
-   "score": 5.66
+   "score": 6.16,
+   "isAITool": true,
+   "intro": "Pulse Local是一款在Mac本地运行AI模型的预算管理应用，所有数据和AI处理均在用户设备上完成，注重隐私保护。",
+   "scenario": "no-code-apps"
   },
   {
    "source": "GitHub",
@@ -84,7 +92,10 @@
    "metric": 65,
    "metricLabel": "stars/天（共146）",
    "created": "2026-10-13T10:13:21Z",
-   "score": 5.5
+   "score": 5.5,
+   "isAITool": true,
+   "intro": "AI 跨境电商运营智能体工具箱，将运营 SOP 拆解为 7 个可复用的 AI Agent 工作流，包含 Prompt、模板和真实案例。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -94,7 +105,10 @@
    "metric": 77,
    "metricLabel": "points",
    "created": "2026-10-13T19:50:31Z",
-   "score": 5.29
+   "score": 5.29,
+   "isAITool": true,
+   "intro": "Parsimony是一个开源基准测试工具，用于评估AI代码生成模型在完成任务时新增代码量的多少，衡量模型的简洁性。",
+   "scenario": "research"
   },
   {
    "source": "HN",
@@ -104,17 +118,10 @@
    "metric": 46,
    "metricLabel": "points",
    "created": "2026-10-14T15:00:41Z",
-   "score": 4.92
-  },
-  {
-   "source": "HN",
-   "name": "Show HN: An experimental pattern-first DAW that supports MCP",
-   "url": "https://github.com/andrewfader/blokkily",
-   "discuss": "https://news.ycombinator.com/item?id=50064438",
-   "metric": 84,
-   "metricLabel": "points",
-   "created": "2026-10-12T23:21:12Z",
-   "score": 4.82
+   "score": 4.92,
+   "isAITool": true,
+   "intro": "Graphicle是一个用Rust编写的Graphify端口，为编码代理（coding agents）提供了内存支持。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -124,7 +131,10 @@
    "metric": 115,
    "metricLabel": "points",
    "created": "2026-10-12T00:15:12Z",
-   "score": 4.63
+   "score": 4.62,
+   "isAITool": true,
+   "intro": "Atticus是一款macOS上的按住说话语音助手，完全本地运行并调用Claude模型实现对话。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -134,7 +144,10 @@
    "metric": 419,
    "metricLabel": "points",
    "created": "2026-10-09T11:03:48Z",
-   "score": 4.44
+   "score": 4.44,
+   "isAITool": true,
+   "intro": "一个开源AI Agent工具，可让AI在用户屏幕上实时绘制醒目的大箭头、方框和文字，辅助演示、解释或引导操作。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -144,17 +157,10 @@
    "metric": 28,
    "metricLabel": "stars/天（共71）",
    "created": "2026-10-13T03:36:43Z",
-   "score": 4.32
-  },
-  {
-   "source": "HN",
-   "name": "Show HN: Building an LLM from Scratch in TypeScript",
-   "url": "https://book.humanexperiences.io/",
-   "discuss": "https://news.ycombinator.com/item?id=50085332",
-   "metric": 32,
-   "metricLabel": "points",
-   "created": "2026-10-14T10:29:56Z",
-   "score": 4.11
+   "score": 4.31,
+   "isAITool": true,
+   "intro": "OpenCode-Rust是一个用Rust编写的开源AI编码代理，支持CLI、TUI和HTTP服务器，可在本地运行AI编码助手，无需Docker。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -164,7 +170,10 @@
    "metric": 43,
    "metricLabel": "stars/天（共178）",
    "created": "2026-10-11T13:12:31Z",
-   "score": 3.83
+   "score": 3.82,
+   "isAITool": true,
+   "intro": "Xiryn是一个开源的个人AI Agent框架，可在本地Docker中为每个Agent提供独立Linux桌面，支持任意LLM模型、加密存储，并通过Telegram进行控制。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -174,7 +183,10 @@
    "metric": 59,
    "metricLabel": "stars/天（共284）",
    "created": "2026-10-10T20:51:25Z",
-   "score": 3.74
+   "score": 3.73,
+   "isAITool": true,
+   "intro": "Nous Research官方为Hermes Agent开发的插件集合，包括Home Assistant、Spotify、Claude Subscription DirectSDK等，可通过Hermes插件目录一键安装。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -184,7 +196,10 @@
    "metric": 32,
    "metricLabel": "points",
    "created": "2026-10-13T17:52:57Z",
-   "score": 3.72
+   "score": 3.72,
+   "isAITool": true,
+   "intro": "Deslop是一个Oxlint规则集，专门用于检测和清理AI生成的TypeScript代码中的低质量、冗余或不符合最佳实践的部分。",
+   "scenario": "vibe-coding"
   },
   {
    "source": "GitHub",
@@ -194,17 +209,10 @@
    "metric": 23,
    "metricLabel": "stars/天（共76）",
    "created": "2026-10-12T09:38:49Z",
-   "score": 3.68
-  },
-  {
-   "source": "GitHub",
-   "name": "Ayzzz123/mcd-coupon-strategist",
-   "desc": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
-   "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
-   "metric": 67,
-   "metricLabel": "stars/天（共342）",
-   "created": "2026-10-10T12:59:19Z",
-   "score": 3.67
+   "score": 3.67,
+   "isAITool": true,
+   "intro": "一个检测AI生成内容（AI slop）的工具，包含120种常见AI写作模式，并提供Claude Code和Codex的Agent技能。",
+   "scenario": "content"
   },
   {
    "source": "GitHub",
@@ -214,7 +222,10 @@
    "metric": 20,
    "metricLabel": "stars/天（共67）",
    "created": "2026-10-12T08:08:16Z",
-   "score": 3.5
+   "score": 3.5,
+   "isAITool": true,
+   "intro": "DishwasherBench是一个基于真实洗碗机物理模拟的浏览器游戏（Spotless），专为基准测试语言模型的具身推理和规划能力而设计。",
+   "scenario": "game-dev"
   },
   {
    "source": "GitHub",
@@ -224,7 +235,10 @@
    "metric": 25,
    "metricLabel": "stars/天（共102）",
    "created": "2026-10-11T12:42:59Z",
-   "score": 3.32
+   "score": 3.32,
+   "isAITool": true,
+   "intro": "awesome-iran-mcp 是一个收集了19个开源MCP服务器（共308个工具）的项目，让AI Agent能够访问伊朗本地主流网站和服务（如Digikala、Snappfood、Jabama等），价格单位为伊朗里亚尔（Toman）。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -234,7 +248,10 @@
    "metric": 21,
    "metricLabel": "points",
    "created": "2026-10-13T23:35:20Z",
-   "score": 3.11
+   "score": 3.11,
+   "isAITool": true,
+   "intro": "Jevcrawl 是一个专为 AI Agents 设计的网页爬虫工具，在爬取循环中不依赖 LLM 调用，强调高效、轻量和可控性。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -244,17 +261,10 @@
    "metric": 32,
    "metricLabel": "stars/天（共168）",
    "created": "2026-10-10T08:59:18Z",
-   "score": 3.01
-  },
-  {
-   "source": "GitHub",
-   "name": "LosaLosSantos/aurelio-finance",
-   "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
-   "url": "https://github.com/LosaLosSantos/aurelio-finance",
-   "metric": 383,
-   "metricLabel": "stars/天（共3379）",
-   "created": "2026-10-06T20:14:19Z",
-   "score": 3
+   "score": 3,
+   "isAITool": true,
+   "intro": "RuiC-oc-ferry 是一个开源工具，可将 OpenCode 的免费大模型摆渡转发给 WorkBuddy，支持隔离运行时、并发检测、判定缓存、一键导入及本地 OpenAI 兼容接口。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -264,7 +274,10 @@
    "metric": 16,
    "metricLabel": "stars/天（共64）",
    "created": "2026-10-11T17:06:36Z",
-   "score": 3
+   "score": 3,
+   "isAITool": true,
+   "intro": "jevcrawl是一个MCP服务器和CLI工具，专为AI Agents设计的高效网页爬取工具，能更精准地找到答案页面，比Crawl4AI成功率高2倍，成本仅为Claude直接爬取的1/10。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -274,17 +287,23 @@
    "metric": 22,
    "metricLabel": "points",
    "created": "2026-10-13T12:35:42Z",
-   "score": 2.99
+   "score": 2.99,
+   "isAITool": true,
+   "intro": "MemorySync是一个为AI Agents提供持久化记忆存储和同步的工具，帮助代理在多会话、多设备间保持长期记忆。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
-   "name": "init-co-jp/diff-tour",
-   "desc": "Walk through a diff the way a senior engineer reads it. A read-only TUI that turns a git change into a guided tour.",
-   "url": "https://github.com/init-co-jp/diff-tour",
-   "metric": 27,
-   "metricLabel": "stars/天（共143）",
-   "created": "2026-10-10T09:19:05Z",
-   "score": 2.88
+   "name": "LosaLosSantos/aurelio-finance",
+   "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+   "url": "https://github.com/LosaLosSantos/aurelio-finance",
+   "metric": 383,
+   "metricLabel": "stars/天（共3379）",
+   "created": "2026-10-06T20:14:19Z",
+   "score": 2.99,
+   "isAITool": true,
+   "intro": "开源个人理财应用，内置AI金融顾问，可在本地电脑追踪净资产、投资、ETF、现金和债务。",
+   "scenario": "no-code-apps"
   },
   {
    "source": "GitHub",
@@ -294,7 +313,10 @@
    "metric": 34,
    "metricLabel": "stars/天（共214）",
    "created": "2026-10-09T08:34:03Z",
-   "score": 2.64
+   "score": 2.64,
+   "isAITool": true,
+   "intro": "Blender-ai-addon是一个Blender插件，通过与AI聊天（文本或图像输入）自动生成并执行bpy代码，实现3D模型的创建与编辑。",
+   "scenario": "game-dev"
   },
   {
    "source": "HN",
@@ -304,7 +326,10 @@
    "metric": 81,
    "metricLabel": "points",
    "created": "2026-10-08T16:34:13Z",
-   "score": 2.58
+   "score": 2.58,
+   "isAITool": true,
+   "intro": "Jevman是一个AI决策模型基准测试项目，让多种AI模型（如LLM驱动的代理）在经典Pac-Man游戏中进行决策对战和性能评估。",
+   "scenario": "game-dev"
   },
   {
    "source": "GitHub",
@@ -314,7 +339,10 @@
    "metric": 51,
    "metricLabel": "stars/天（共381）",
    "created": "2026-10-08T05:37:45Z",
-   "score": 2.48
+   "score": 2.48,
+   "isAITool": true,
+   "intro": "开源版ChatGPT Intelligent UI，能将AI回答实时流式渲染为交互式界面（如地图、图表、图片、绘图和可操作工具）。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -324,7 +352,10 @@
    "metric": 22,
    "metricLabel": "stars/天（共137）",
    "created": "2026-10-09T12:51:25Z",
-   "score": 2.41
+   "score": 2.41,
+   "isAITool": true,
+   "intro": "一个开源项目，可将微信接入Grok、Claude、Muse等AI Agent，支持通过微信与个人AI助手对话。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -332,9 +363,12 @@
    "desc": "Project Maya - run GLM-5.3-Flash (321B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
    "url": "https://github.com/mw00/project-maya",
    "metric": 102,
-   "metricLabel": "stars/天（共890）",
+   "metricLabel": "stars/天（共891）",
    "created": "2026-10-06T22:55:13Z",
-   "score": 2.4
+   "score": 2.4,
+   "isAITool": true,
+   "intro": "Project Maya 是一个开源本地推理引擎，支持在单卡到16卡的NVIDIA或AMD GPU上私有运行 GLM-5.3-Flash (321B MoE) 模型，提供服务端、仪表盘及兼容 OpenAI/Anthropic 的 API。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -344,7 +378,10 @@
    "metric": 47,
    "metricLabel": "points",
    "created": "2026-10-08T21:00:55Z",
-   "score": 2.18
+   "score": 2.18,
+   "isAITool": true,
+   "intro": "Rembrandt 是一个完全本地运行的免费开源 Adobe Lightroom 替代品，集成了 AI 功能。",
+   "scenario": "image-design"
   },
   {
    "source": "HN",
@@ -354,7 +391,10 @@
    "metric": 41,
    "metricLabel": "points",
    "created": "2026-10-09T00:02:19Z",
-   "score": 2.1
+   "score": 2.1,
+   "isAITool": true,
+   "intro": "Edi Life OS 是一个自托管的个人生活仪表盘，内置 MCP 服务器，可与 AI 模型深度集成，实现任务管理、日程、笔记等生活数据的统一管理与智能交互。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -364,7 +404,10 @@
    "metric": 16,
    "metricLabel": "points",
    "created": "2026-10-11T23:47:59Z",
-   "score": 1.99
+   "score": 1.99,
+   "isAITool": true,
+   "intro": "Plimsoll是一个自托管的代码沙箱，专为AI Agent生成并执行代码提供安全隔离环境。",
+   "scenario": "agents"
   },
   {
    "source": "HF-spaces",
@@ -373,7 +416,10 @@
    "metric": 50,
    "metricLabel": "trending（likes 85）",
    "created": "2026-10-14T22:42:16.000Z",
-   "score": 1.98
+   "score": 1.98,
+   "isAITool": true,
+   "intro": "一个基于Hugging Face的AI短视频生成工具，能快速将文本或想法转化为短视频内容。",
+   "scenario": "video"
   },
   {
    "source": "HN",
@@ -383,26 +429,22 @@
    "metric": 16,
    "metricLabel": "points",
    "created": "2026-10-11T17:04:21Z",
-   "score": 1.91
+   "score": 1.91,
+   "isAITool": true,
+   "intro": "Mira 是一款基于AI的步行导览工具，能根据用户位置和兴趣实时生成个性化城市漫步导览路线。",
+   "scenario": "no-code-apps"
   },
   {
    "source": "HF-spaces",
    "name": "autotrust/news",
    "url": "https://huggingface.co/spaces/autotrust/news",
-   "metric": 45,
-   "metricLabel": "trending（likes 79）",
+   "metric": 47,
+   "metricLabel": "trending（likes 81）",
    "created": "2026-10-14T22:10:52.000Z",
-   "score": 1.83
-  },
-  {
-   "source": "HN",
-   "name": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
-   "url": "https://pocketty.app/",
-   "discuss": "https://news.ycombinator.com/item?id=50009634",
-   "metric": 32,
-   "metricLabel": "points",
-   "created": "2026-10-08T18:11:52Z",
-   "score": 1.82
+   "score": 1.89,
+   "isAITool": true,
+   "intro": "AutoTrust News是一个基于Hugging Face的AI新闻聚合与可信度评估工具，能自动抓取并用AI模型评估新闻来源的可信度。",
+   "scenario": "content"
   },
   {
    "source": "HF-spaces",
@@ -411,7 +453,10 @@
    "metric": 53,
    "metricLabel": "trending（likes 53）",
    "created": "2026-10-13T20:21:09.000Z",
-   "score": 1.76
+   "score": 1.76,
+   "isAITool": true,
+   "intro": "Drama-3 是 Fish Audio 推出的开源文本到语音（TTS）模型，专注于生成富有情感、戏剧化和富有表现力的语音。",
+   "scenario": "audio"
   },
   {
    "source": "HF-models",
@@ -420,7 +465,10 @@
    "metric": 581,
    "metricLabel": "trending（likes 942）",
    "created": "2026-10-11T01:22:03.000Z",
-   "score": 1.63
+   "score": 1.63,
+   "isAITool": true,
+   "intro": "JEV-35B 是由 AutoTrust 发布的开源大型语言模型，在 Hugging Face 上提供，支持多语言和复杂推理任务。",
+   "scenario": "research"
   },
   {
    "source": "HN",
@@ -430,17 +478,10 @@
    "metric": 24,
    "metricLabel": "points",
    "created": "2026-10-08T17:13:08Z",
-   "score": 1.58
-  },
-  {
-   "source": "GitHub",
-   "name": "robertkarl/UnbiasedStrata",
-   "desc": "Strata minus the bullshit. clone, rsync to prod, compile and go",
-   "url": "https://github.com/robertkarl/UnbiasedStrata",
-   "metric": 12,
-   "metricLabel": "stars/天（共97）",
-   "created": "2026-10-07T19:53:26Z",
-   "score": 1.57
+   "score": 1.58,
+   "isAITool": true,
+   "intro": "AI SRE Arena是一个开源基准测试框架，用于评估AI SRE Agent在Kubernetes环境下的故障诊断、修复和运维能力。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -450,7 +491,10 @@
    "metric": 127,
    "metricLabel": "stars/天（共1532）",
    "created": "2026-10-03T14:49:48Z",
-   "score": 1.56
+   "score": 1.56,
+   "isAITool": true,
+   "intro": "AI 자율 침투 테스트 프레임워크의 한국어 버전 (upstream: Autumn-27/ARTEX)",
+   "scenario": "agents"
   },
   {
    "source": "HF-models",
@@ -459,7 +503,10 @@
    "metric": 370,
    "metricLabel": "trending（likes 373）",
    "created": "2026-10-12T05:35:46.000Z",
-   "score": 1.55
+   "score": 1.55,
+   "isAITool": true,
+   "intro": "LiquidAI发布的24B参数MoE模型LFM2.5-24B-A2B，支持高效的文本生成与推理，是开源大语言模型家族的新成员。",
+   "scenario": "agents"
   },
   {
    "source": "HN",
@@ -469,7 +516,10 @@
    "metric": 16,
    "metricLabel": "points",
    "created": "2026-10-10T04:37:13Z",
-   "score": 1.54
+   "score": 1.54,
+   "isAITool": true,
+   "intro": "Nagare 是一款简洁的待办事项应用，支持 iPhone、Mac，并专为 AI Agent 设计，可通过 API 让 Agent 直接创建、更新和管理任务。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -477,9 +527,12 @@
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "metric": 260,
-   "metricLabel": "stars/天（共3439）",
+   "metricLabel": "stars/天（共3440）",
    "created": "2026-10-02T09:57:40Z",
-   "score": 1.49
+   "score": 1.49,
+   "isAITool": true,
+   "intro": "Answer me with HTML 是一个 AI Agent 技能，让大模型用单页可读的 HTML 格式回答复杂问题，输出结构化且美观的内容。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -487,18 +540,24 @@
    "desc": "Run large AI models on your own PC: Qwen3.8-Flash-Next, GLM 5.3 Flash, Qwen3.6, Ornith 1.5 and Gemma 4. One-click install for Windows and Linux, OpenAI/Anthropic API on localhost, image input. Built on Strata.",
    "url": "https://github.com/VecSzn/PolyStrata",
    "metric": 14,
-   "metricLabel": "stars/天（共125）",
+   "metricLabel": "stars/天（共126）",
    "created": "2026-10-06T21:09:40Z",
-   "score": 1.44
+   "score": 1.44,
+   "isAITool": true,
+   "intro": "PolyStrata 是一个本地运行大语言模型的开源工具，支持 Qwen3、GLM 5.3、Gemma 4 等模型，一键安装 Windows/Linux，提供 OpenAI/Anthropic 兼容的本地 API，并支持图像输入。",
+   "scenario": "no-code-apps"
   },
   {
    "source": "HF-models",
    "name": "Qwen/Qwen-Image-2.1-Turbo",
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-   "metric": 739,
-   "metricLabel": "trending（likes 855）",
+   "metric": 740,
+   "metricLabel": "trending（likes 856）",
    "created": "2026-10-09T04:50:01.000Z",
-   "score": 1.38
+   "score": 1.38,
+   "isAITool": true,
+   "intro": "Qwen-Image-2.1-Turbo是阿里云Qwen团队开源的图像生成模型，支持高分辨率文本到图像生成，速度快且质量高。",
+   "scenario": "image-design"
   },
   {
    "source": "GitHub",
@@ -508,7 +567,10 @@
    "metric": 20,
    "metricLabel": "stars/天（共199）",
    "created": "2026-10-05T16:16:41Z",
-   "score": 1.35
+   "score": 1.35,
+   "isAITool": true,
+   "intro": "OpenChart是一个开源的交易工作空间，支持集成各种AI Agents进行智能交易分析和操作。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -518,7 +580,10 @@
    "metric": 7,
    "metricLabel": "stars/天（共54）",
    "created": "2026-10-07T23:23:36Z",
-   "score": 1.33
+   "score": 1.33,
+   "isAITool": true,
+   "intro": "Gluon是一个开源的编码代理控制平台，用于管理和协调多个AI编码代理的协作与任务执行。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -528,7 +593,10 @@
    "metric": 10,
    "metricLabel": "stars/天（共93）",
    "created": "2026-10-06T11:00:23Z",
-   "score": 1.22
+   "score": 1.22,
+   "isAITool": true,
+   "intro": "Asamana是一个AI驱动的涌现叙事引擎，可生成动态、开放式的故事世界。",
+   "scenario": "game-dev"
   },
   {
    "source": "GitHub",
@@ -538,7 +606,10 @@
    "metric": 84,
    "metricLabel": "stars/天（共1110）",
    "created": "2026-10-02T09:50:45Z",
-   "score": 1.21
+   "score": 1.2,
+   "isAITool": true,
+   "intro": "开源的AI API中转站评测工具，提供Claude、Codex等模型的实时可用率、延迟和价格排行，并支持自动切换最优API。",
+   "scenario": "research"
   },
   {
    "source": "GitHub",
@@ -548,7 +619,10 @@
    "metric": 10,
    "metricLabel": "stars/天（共91）",
    "created": "2026-10-06T09:04:48Z",
-   "score": 1.2
+   "score": 1.2,
+   "isAITool": true,
+   "intro": "fde-gym 是面向 LLM 编码代理的在线评测平台，每个评测用例均为真实客户交付项目，通过让代理实际交付并上线运行来进行最终评判。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -558,7 +632,10 @@
    "metric": 17,
    "metricLabel": "stars/天（共180）",
    "created": "2026-10-05T02:29:23Z",
-   "score": 1.19
+   "score": 1.19,
+   "isAITool": true,
+   "intro": "AILearningGuide是一个交互式桌面应用，包含51个实验，覆盖机器学习基础、Transformers、RAG、Agent、微调、量化等AI核心主题。",
+   "scenario": "research"
   },
   {
    "source": "GitHub",
@@ -568,7 +645,10 @@
    "metric": 7,
    "metricLabel": "stars/天（共58）",
    "created": "2026-10-07T03:06:45Z",
-   "score": 1.18
+   "score": 1.18,
+   "isAITool": true,
+   "intro": "Estrella Bot 是一个 QQ 群 AI 群友机器人，可将 QQ 小号接入任意 OpenAI 兼容模型（如 DeepSeek、智谱、通义），让 AI 像真实群友一样插话、接梗和潜水。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -576,9 +656,12 @@
    "desc": "Zoom any paper for your better understanding",
    "url": "https://github.com/chenxiachan/textfold",
    "metric": 17,
-   "metricLabel": "stars/天（共186）",
+   "metricLabel": "stars/天（共187）",
    "created": "2026-10-04T22:19:52Z",
-   "score": 1.16
+   "score": 1.16,
+   "isAITool": true,
+   "intro": "TextFold是一个开源工具，可将任意长度的论文或文本“折叠”成可缩放的交互式摘要，帮助用户快速理解和深入探索论文内容。",
+   "scenario": "research"
   },
   {
    "source": "GitHub",
@@ -586,9 +669,12 @@
    "desc": "Research and writing can be automated. Authorship cannot. Evidence list + agent skills for spotting AI-produced papers no human stood behind.",
    "url": "https://github.com/THUROI0787/absent-author",
    "metric": 12,
-   "metricLabel": "stars/天（共120）",
+   "metricLabel": "stars/天（共121）",
    "created": "2026-10-05T08:41:20Z",
-   "score": 1.11
+   "score": 1.11,
+   "isAITool": true,
+   "intro": "Absent Author是一个开源项目，通过证据列表和Agent技能检测AI生成的论文，判断是否缺乏真实人类作者。",
+   "scenario": "research"
   },
   {
    "source": "GitHub",
@@ -598,7 +684,10 @@
    "metric": 7,
    "metricLabel": "stars/天（共62）",
    "created": "2026-10-06T16:12:42Z",
-   "score": 1.11
+   "score": 1.11,
+   "isAITool": true,
+   "intro": "Open-Academic-Paper-Gen是一个多代理流水线工具，能将研究主题转化为基于真实文献的学术论文草稿，并内置引用幻觉检测和论点支持检查。",
+   "scenario": "research"
   },
   {
    "source": "HF-models",
@@ -607,7 +696,10 @@
    "metric": 393,
    "metricLabel": "trending（likes 478）",
    "created": "2026-10-09T16:30:48.000Z",
-   "score": 1.11
+   "score": 1.11,
+   "isAITool": true,
+   "intro": "Qwen-Image-2.1-Turbo-Uncensored的GGUF量化版本，支持本地高效部署的图像生成模型。",
+   "scenario": "image-design"
   },
   {
    "source": "GitHub",
@@ -617,7 +709,10 @@
    "metric": 53,
    "metricLabel": "stars/天（共711）",
    "created": "2026-10-02T05:15:41Z",
-   "score": 1.06
+   "score": 1.06,
+   "isAITool": true,
+   "intro": "CodeAgent是一个开源的终端编码代理，能够理解代码仓库、规划多步修改、自动编写编辑文件、执行命令和测试，并通过透明可扩展的工具循环迭代直到完成任务。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -627,7 +722,10 @@
    "metric": 39,
    "metricLabel": "stars/天（共508）",
    "created": "2026-10-02T13:50:42Z",
-   "score": 1.04
+   "score": 1.04,
+   "isAITool": true,
+   "intro": "Whirl是一个开源的AI聊天应用，支持集成多种顶级AI模型、真实记忆系统、动态文档以及自定义工具。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -637,7 +735,10 @@
    "metric": 32,
    "metricLabel": "stars/天（共405）",
    "created": "2026-10-02T20:34:08Z",
-   "score": 1.03
+   "score": 1.03,
+   "isAITool": true,
+   "intro": "Box是一个Rust编写的AI Agent沙箱运行环境，通过OS隔离、默认拒绝的Dogwood策略和凭证注入机制，严格限制Agent的执行、读写和网络访问能力，保护密钥不被泄露。",
+   "scenario": "agents"
   },
   {
    "source": "HF-models",
@@ -646,7 +747,10 @@
    "metric": 677,
    "metricLabel": "trending（likes 775）",
    "created": "2026-10-07T07:07:30.000Z",
-   "score": 1.01
+   "score": 1.01,
+   "isAITool": true,
+   "intro": "MiniCPM-V-4.7-35B-A3B 是 OpenBMB 发布的开源多模态大模型，采用 35B+3B 混合架构，支持高性能图文理解与视觉推理。",
+   "scenario": "research"
   },
   {
    "source": "GitHub",
@@ -656,7 +760,10 @@
    "metric": 26,
    "metricLabel": "stars/天（共332）",
    "created": "2026-10-02T18:35:24Z",
-   "score": 0.96
+   "score": 0.96,
+   "isAITool": true,
+   "intro": "Pi-Bolt 是用 Rust 编译成原生代码的编码 Agent（Pi 的高性能版本），启动速度比 Bun 版快 3 倍，CPU 占用仅为其三分之一。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -666,7 +773,10 @@
    "metric": 11,
    "metricLabel": "stars/天（共122）",
    "created": "2026-10-04T12:33:41Z",
-   "score": 0.95
+   "score": 0.95,
+   "isAITool": true,
+   "intro": "DeepSeek Harness的Codex风格推理等级滑条插件，通过可拖动连续滑条和高端位渐变星尘特效实现推理努力度的可视化调节。",
+   "scenario": "vibe-coding"
   },
   {
    "source": "HF-models",
@@ -675,7 +785,10 @@
    "metric": 218,
    "metricLabel": "trending（likes 320）",
    "created": "2026-10-11T03:05:28.000Z",
-   "score": 0.95
+   "score": 0.95,
+   "isAITool": true,
+   "intro": "JEV-35B-NVFP4 是基于 Llama 架构的 35B 参数开源大语言模型，由 AutoTrust 团队在 Hugging Face 上发布，支持 NVFP4 量化格式。",
+   "scenario": "research"
   },
   {
    "source": "HF-spaces",
@@ -684,7 +797,10 @@
    "metric": 51,
    "metricLabel": "trending（likes 63）",
    "created": "2026-10-09T14:34:02.000Z",
-   "score": 0.94
+   "score": 0.94,
+   "isAITool": true,
+   "intro": "Qwen-Qwen-Image-2.1-Turbo是一个基于Qwen2.1-VL的图像生成与编辑Hugging Face Space应用，支持文本到图像生成、图像编辑等多种视觉AI功能。",
+   "scenario": "image-design"
   },
   {
    "source": "GitHub",
@@ -694,7 +810,10 @@
    "metric": 18,
    "metricLabel": "stars/天（共225）",
    "created": "2026-10-03T06:08:29Z",
-   "score": 0.93
+   "score": 0.93,
+   "isAITool": true,
+   "intro": "AI小说创作平台，支持世界构建、交互式选择和持久化角色状态。",
+   "scenario": "content"
   },
   {
    "source": "GitHub",
@@ -704,7 +823,10 @@
    "metric": 10,
    "metricLabel": "stars/天（共109）",
    "created": "2026-10-04T12:30:42Z",
-   "score": 0.92
+   "score": 0.92,
+   "isAITool": true,
+   "intro": "dsh-sieve 是 DeepSeek Harness (DSH) 的上下文工程与 token 优化插件，可实现工具输出过滤、上下文剪枝和渐进式技能披露，能将离线回放 payload 缩小 36%。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -714,7 +836,10 @@
    "metric": 6,
    "metricLabel": "stars/天（共57）",
    "created": "2026-10-05T17:31:29Z",
-   "score": 0.91
+   "score": 0.91,
+   "isAITool": true,
+   "intro": "STC 简明技术性中文是一个为AI设计的中文写作规范、词典和CLI工具，帮助AI代理生成和检查规范的技术性中文文本。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -724,7 +849,22 @@
    "metric": 8,
    "metricLabel": "stars/天（共86）",
    "created": "2026-10-04T21:41:34Z",
-   "score": 0.9
+   "score": 0.9,
+   "isAITool": true,
+   "intro": "Understanding Ladder是一个基于Karpathy理念的AI代理工具，能根据解释内容自动选择文本、图表、交互HTML或视频故事板进行呈现，支持中英双语。",
+   "scenario": "agents"
+  },
+  {
+   "source": "HF-models",
+   "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+   "metric": 380,
+   "metricLabel": "trending（likes 490）",
+   "created": "2026-10-08T01:47:26.000Z",
+   "score": 0.87,
+   "isAITool": true,
+   "intro": "Underdog-Saluki-27B-1.0 是 ConwayResearch 发布的开源 27B 参数大型语言模型，在 Hugging Face 上提供，可用于文本生成和对话任务。",
+   "scenario": "research"
   },
   {
    "source": "GitHub",
@@ -734,16 +874,10 @@
    "metric": 7,
    "metricLabel": "stars/天（共70）",
    "created": "2026-10-04T22:51:20Z",
-   "score": 0.87
-  },
-  {
-   "source": "HF-models",
-   "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-   "metric": 381,
-   "metricLabel": "trending（likes 490）",
-   "created": "2026-10-08T01:47:26.000Z",
-   "score": 0.87
+   "score": 0.86,
+   "isAITool": true,
+   "intro": "Hermes Mobile App是一个在Android手机上完全本地运行的Hermes Agent原生应用，通过Termux实现手机端AI Agent功能。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -753,7 +887,10 @@
    "metric": 5,
    "metricLabel": "stars/天（共49）",
    "created": "2026-10-05T15:50:15Z",
-   "score": 0.84
+   "score": 0.84,
+   "isAITool": true,
+   "intro": "将《东南大学大学生手册（2025）》转化为可直接装入本地 Agent 的 Skill 工具，按条目拆分全文并支持溯源，同时结构化高频使用的加分/评奖/绩点规则，并维护官方渠道的动态信息。",
+   "scenario": "agents"
   },
   {
    "source": "HF-spaces",
@@ -762,7 +899,10 @@
    "metric": 51,
    "metricLabel": "trending（likes 53）",
    "created": "2026-10-08T14:16:22.000Z",
-   "score": 0.81
+   "score": 0.81,
+   "isAITool": true,
+   "intro": "LightOnOCR-3-Demo 是 LightOn 推出的开源 OCR 演示项目，支持高精度、多语言文档文字识别。",
+   "scenario": "content"
   },
   {
    "source": "GitHub",
@@ -772,7 +912,10 @@
    "metric": 13,
    "metricLabel": "stars/天（共163）",
    "created": "2026-10-02T20:45:48Z",
-   "score": 0.79
+   "score": 0.79,
+   "isAITool": true,
+   "intro": "Kyojin是Yamz-Labs基于ExLlamaV3开发的AMD Strix Halo（ROCm gfx1151）推理引擎，可在单台128GB迷你PC上运行300B级MoE模型。",
+   "scenario": "vibe-coding"
   },
   {
    "source": "GitHub",
@@ -782,7 +925,10 @@
    "metric": 10,
    "metricLabel": "stars/天（共129）",
    "created": "2026-10-03T04:26:57Z",
-   "score": 0.76
+   "score": 0.76,
+   "isAITool": true,
+   "intro": "DeepSeek Harness的Linux原生打包项目，提供AppImage、.deb、.tar.gz格式，支持x64和arm64架构，通过CI自动构建。",
+   "scenario": "no-code-apps"
   },
   {
    "source": "HF-models",
@@ -791,7 +937,10 @@
    "metric": 188,
    "metricLabel": "trending（likes 193）",
    "created": "2026-10-10T09:38:30.000Z",
-   "score": 0.76
+   "score": 0.76,
+   "isAITool": true,
+   "intro": "vLLM-SR/D3 是基于 vLLM 框架的开源大模型服务与推理优化项目，支持高效部署和运行大型语言模型。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -801,7 +950,10 @@
    "metric": 5,
    "metricLabel": "stars/天（共55）",
    "created": "2026-10-04T21:14:52Z",
-   "score": 0.75
+   "score": 0.75,
+   "isAITool": true,
+   "intro": "macOS应用，用于同时追踪多个Claude账号的5小时和周使用限额、重置时间，并通过独立浏览器配置文件登录各账号。",
+   "scenario": "vibe-coding"
   },
   {
    "source": "GitHub",
@@ -811,7 +963,10 @@
    "metric": 8,
    "metricLabel": "stars/天（共101）",
    "created": "2026-10-02T20:10:49Z",
-   "score": 0.67
+   "score": 0.67,
+   "isAITool": true,
+   "intro": "MuseLite是一个开源AI工作空间，集成了聊天、Agent工具、浏览器自动化和定时任务功能，适合喜欢Muse和Dots的用户。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -821,7 +976,10 @@
    "metric": 5,
    "metricLabel": "stars/天（共58）",
    "created": "2026-10-03T06:17:19Z",
-   "score": 0.6
+   "score": 0.6,
+   "isAITool": true,
+   "intro": "LemonSeed-Studio 是一款运行在 iPad 上的 IDE，支持通过 Thunderbolt 将 AMD GPU 接入并在本地进行 LLM 推理，集成了上游 Linux amdgpu 驱动（DriverKit）、LemonSeed 引擎及实时 GPU 遥测。",
+   "scenario": "vibe-coding"
   },
   {
    "source": "HF-models",
@@ -830,7 +988,10 @@
    "metric": 158,
    "metricLabel": "trending（likes 158）",
    "created": "2026-10-09T18:03:23.000Z",
-   "score": 0.59
+   "score": 0.59,
+   "isAITool": true,
+   "intro": "LiquidAI发布的24B参数MoE模型LFM2.5的GGUF量化版本，支持高效本地部署和推理。",
+   "scenario": "vibe-coding"
   },
   {
    "source": "HF-models",
@@ -839,7 +1000,10 @@
    "metric": 264,
    "metricLabel": "trending（likes 357）",
    "created": "2026-10-06T17:40:13.000Z",
-   "score": 0.58
+   "score": 0.58,
+   "isAITool": true,
+   "intro": "MiniCPM-V-4.7-1B 是由 OpenBMB 发布的开源多模态大模型，仅1B参数，支持图像理解、OCR、视觉问答等多种视觉-语言任务。",
+   "scenario": "research"
   },
   {
    "source": "HF-spaces",
@@ -848,7 +1012,10 @@
    "metric": 58,
    "metricLabel": "trending（likes 108）",
    "created": "2026-10-05T07:05:39.000Z",
-   "score": 0.55
+   "score": 0.55,
+   "isAITool": true,
+   "intro": "Krea-2-Turbo_v2是一个基于Hugging Face Spaces的AI图像生成与编辑工具，支持快速文本到图像生成和图像到图像转换。",
+   "scenario": "image-design"
   },
   {
    "source": "HF-models",
@@ -857,7 +1024,10 @@
    "metric": 275,
    "metricLabel": "trending（likes 280）",
    "created": "2026-10-05T14:51:15.000Z",
-   "score": 0.51
+   "score": 0.51,
+   "isAITool": true,
+   "intro": "Iris-3B 是 Sperid Labs 发布的开源多模态大语言模型，支持图像理解和视觉推理任务。",
+   "scenario": "research"
   },
   {
    "source": "HF-spaces",
@@ -866,7 +1036,10 @@
    "metric": 73,
    "metricLabel": "trending（likes 218）",
    "created": "2026-10-03T13:53:19.000Z",
-   "score": 0.49
+   "score": 0.49,
+   "isAITool": true,
+   "intro": "Model Pulse是一个Hugging Face Space工具，可实时监控和可视化Hugging Face上模型的下载趋势、流行度和更新动态。",
+   "scenario": "research"
   },
   {
    "source": "HF-spaces",
@@ -875,7 +1048,10 @@
    "metric": 33,
    "metricLabel": "trending（likes 43）",
    "created": "2026-10-07T09:32:04.000Z",
-   "score": 0.49
+   "score": 0.48,
+   "isAITool": true,
+   "intro": "LiquidAI推出的System One Arcade是一个开源的AI Agent竞技场和评测平台，支持多种AI模型在游戏化环境中进行交互、竞赛和性能评估。",
+   "scenario": "agents"
   },
   {
    "source": "GitHub",
@@ -885,7 +1061,10 @@
    "metric": 4,
    "metricLabel": "stars/天（共61）",
    "created": "2026-10-02T00:43:49Z",
-   "score": 0.46
+   "score": 0.46,
+   "isAITool": true,
+   "intro": "CCB 是一款开源的 AI 编程助手一键配置工具，可将 Trae、Qoder、CodeBuddy、Cursor 等多个桌面客户端自动接入各种大模型，自动写入配置、设为默认并启动。",
+   "scenario": "vibe-coding"
   },
   {
    "source": "HF-models",
@@ -894,7 +1073,10 @@
    "metric": 300,
    "metricLabel": "trending（likes 357）",
    "created": "2026-10-04T10:44:11.000Z",
-   "score": 0.45
+   "score": 0.45,
+   "isAITool": true,
+   "intro": "这是一个基于Qwen的开源大语言模型合并/微调版本，专注于代码生成、推理和高效思考能力。",
+   "scenario": "vibe-coding"
   },
   {
    "source": "HF-spaces",
@@ -903,25 +1085,34 @@
    "metric": 38,
    "metricLabel": "trending（likes 40）",
    "created": "2026-10-05T17:47:00.000Z",
-   "score": 0.43
+   "score": 0.43,
+   "isAITool": true,
+   "intro": "Iris-3B是由Sperid Labs推出的开源视觉语言模型，支持图像理解、多模态对话等能力。",
+   "scenario": "image-design"
   },
   {
    "source": "HF-models",
    "name": "LiquidAI/d1-3B",
    "url": "https://huggingface.co/LiquidAI/d1-3B",
-   "metric": 216,
-   "metricLabel": "trending（likes 415）",
+   "metric": 217,
+   "metricLabel": "trending（likes 416）",
    "created": "2026-10-05T09:55:28.000Z",
-   "score": 0.42
+   "score": 0.42,
+   "isAITool": true,
+   "intro": "LiquidAI发布的3B参数开源语言模型，专注于高效推理和长上下文处理。",
+   "scenario": "research"
   },
   {
    "source": "HF-models",
    "name": "fishaudio/drama-3",
    "url": "https://huggingface.co/fishaudio/drama-3",
-   "metric": 404,
-   "metricLabel": "trending（likes 412）",
+   "metric": 405,
+   "metricLabel": "trending（likes 413）",
    "created": "2026-10-01T04:34:57.000Z",
-   "score": 0.34
+   "score": 0.34,
+   "isAITool": true,
+   "intro": "Drama-3 是 Fish Audio 开源的文本到语音 (TTS) 模型，专注于高质量、多语言、多说话人语音合成。",
+   "scenario": "audio"
   },
   {
    "source": "HF-spaces",
@@ -930,7 +1121,10 @@
    "metric": 67,
    "metricLabel": "trending（likes 85）",
    "created": "2026-09-29T16:24:47.000Z",
-   "score": 0.27
+   "score": 0.27,
+   "isAITool": true,
+   "intro": "Qwen-Image-2.1-Uncensored是一个基于Qwen图像生成模型的Hugging Face Space，去除了内容审查限制，支持自由生成图像。",
+   "scenario": "image-design"
   },
   {
    "source": "HF-spaces",
@@ -939,7 +1133,10 @@
    "metric": 107,
    "metricLabel": "trending（likes 263）",
    "created": "2026-09-27T18:26:19.000Z",
-   "score": 0.26
+   "score": 0.26,
+   "isAITool": true,
+   "intro": "基于Hugging Face的开源人脸交换工具，支持高质量、稳定的人脸替换效果。",
+   "scenario": "image-design"
   },
   {
    "source": "HF-models",
@@ -948,7 +1145,10 @@
    "metric": 252,
    "metricLabel": "trending（likes 2175）",
    "created": "2026-09-30T21:15:35.000Z",
-   "score": 0.24
+   "score": 0.24,
+   "isAITool": true,
+   "intro": "Cloudflare CLEF是一个基于Hugging Face的开源AI模型，用于内容审核和分类，支持高效的文本安全检测。",
+   "scenario": "content"
   },
   {
    "source": "HF-models",
@@ -957,7 +1157,10 @@
    "metric": 213,
    "metricLabel": "trending（likes 413）",
    "created": "2026-09-30T17:13:26.000Z",
-   "score": 0.21
+   "score": 0.21,
+   "isAITool": true,
+   "intro": "Whistle是一个开源的语音生成模型，由Cactus-Compute在Hugging Face上发布，支持高质量的文本到语音（TTS）转换。",
+   "scenario": "audio"
   },
   {
    "source": "HF-spaces",
@@ -966,7 +1169,10 @@
    "metric": 62,
    "metricLabel": "trending（likes 293）",
    "created": "2026-09-26T11:44:26.000Z",
-   "score": 0.16
+   "score": 0.16,
+   "isAITool": true,
+   "intro": "Qwen-Image-2.1-Uncensored-AIO-LoRAs是一个基于Qwen2.1-VL的开源图像生成模型集合，整合了多个uncensored LoRA，支持无限制图像创作。",
+   "scenario": "image-design"
   },
   {
    "source": "HF-spaces",
@@ -975,7 +1181,10 @@
    "metric": 37,
    "metricLabel": "trending（likes 70）",
    "created": "2026-09-28T11:36:43.000Z",
-   "score": 0.15
+   "score": 0.15,
+   "isAITool": true,
+   "intro": "Minimax-H3-360-Orbit是一个基于Hugging Face Spaces的交互式3D轨道可视化演示工具，支持360度旋转查看Minimax模型相关内容。",
+   "scenario": "image-design"
   }
  ]
 }
