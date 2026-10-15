@@ -30,7 +30,7 @@ details{background:#fff;border:1px solid #e6e8f0;border-radius:10px;padding:12px
 <header><nav class="nav" aria-label="主导航"><a class="logo" href="/">🧭 AI场景导航</a><a href="/">场景</a><a href="/hot/">🔥 热榜</a><a href="#newsletter">订阅</a></nav></header>
 <main><slot/>
 <section class="box" id="newsletter" aria-labelledby="nl-h"><h2 id="nl-h" style="margin-top:0">📬 每周 AI 新工具精选</h2><p class="muted">每周一封，热榜前 10 + 场景推荐，不发广告轰炸。</p>
-{NEWSLETTER_ACTION?<form action={NEWSLETTER_ACTION} method="post" target="_blank"><label for="nl-email" class="muted">邮箱</label> <input id="nl-email" type="email" name="email" required placeholder="you@example.com"/> <button type="submit">订阅</button></form>
-:<form onsubmit="return false"><label for="nl-email" class="muted">邮箱</label> <input id="nl-email" type="email" disabled placeholder="即将开放"/> <button type="button" disabled>即将开放</button></form>}
+<form action={NEWSLETTER_ACTION} method="post" target="_blank" class="embeddable-buttondown-form"><label for="bd-email" class="muted">邮箱</label> <input id="bd-email" type="email" name="email" required placeholder="you@example.com" autocomplete="email"/> <button type="submit">订阅</button></form>
+<p class="muted" style="font-size:12px;margin-bottom:0">提交后将在新窗口完成确认 · <a href="https://buttondown.com/refer/lester0818" target="_blank" rel="noopener">Powered by Buttondown</a></p>
 </section></main>
 <footer><div>{S.map(s=><a href={`/s/${s.slug}/`}>{s.name}</a>)}</div><p>数据来自公开 API 与官网，每 6 小时自动更新 · 定价请以官网为准 · <a href="/llms.txt">llms.txt</a></p></footer></body></html>
