@@ -498,5 +498,35 @@
   "isAITool": true,
   "intro": "Minimax-H3-360-Orbit是一个基于Hugging Face Spaces的交互式3D轨道可视化演示工具，支持360度旋转查看Minimax模型相关内容。",
   "scenario": "image-design"
+ },
+ "HF-spaces:https://huggingface.co/spaces/black-forest-labs/flux-3-image-klein": {
+  "isAITool": true,
+  "intro": "FLUX.3 Image Klein 是 Black Forest Labs 推出的 FLUX.3 系列图像生成模型的轻量版，支持快速高质量的文本到图像生成。",
+  "scenario": "image-design"
+ },
+ "HF-models:https://huggingface.co/black-forest-labs/flux-3-image-klein": {
+  "isAITool": true,
+  "intro": "FLUX.3 Image Klein 是 Black Forest Labs 发布的轻量级图像生成模型，基于 FLUX.1 架构优化，适合快速生成高质量图像。",
+  "scenario": "image-design"
+ },
+ "HF-models:https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA": {
+  "isAITool": true,
+  "intro": "MiniMax-H3-360-Orbit-LoRA 是基于 MiniMax H3 模型的 360 度轨道 LoRA 适配器，可用于生成环绕式动态视频或 3D 视角内容。",
+  "scenario": "video"
+ },
+ "HF-spaces:https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo": {
+  "isAITool": true,
+  "intro": "Viggle/Qwen-Image-2.1-viggle-turbo 是基于Qwen-Image-2.1的开源图像到视频生成模型，支持通过文本或姿势控制生成动态视频效果。",
+  "scenario": "video"
+ },
+ "HF-models:https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized": {
+  "isAITool": true,
+  "intro": "Qwen-Image-2.1-Uncensored的量化版本，是基于阿里Qwen图像生成模型的去审查开源变体，可在Hugging Face上直接下载使用。",
+  "scenario": "image-design"
+ },
+ "HF-spaces:https://huggingface.co/spaces/multimodalart/jev-decision-index": {
+  "isAITool": true,
+  "intro": "JEV Decision Index是一个基于Hugging Face的开源交互工具，用于评估和比较不同AI模型在多模态艺术创作中的决策表现。",
+  "scenario": "image-design"
  }
 }
