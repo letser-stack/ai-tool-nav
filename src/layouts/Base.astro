@@ -1,20 +1,36 @@
 ---
-const { title } = Astro.props;
+import {SITE,NEWSLETTER_ACTION} from '../site.config.mjs';
+import S from '../data/scenarios.json';
+const { title, description=SITE.desc, jsonld=[] } = Astro.props;
+const canonical=new URL(Astro.url.pathname,SITE.url).href;
+const full=title===SITE.name?title:`${title} · ${SITE.name}`;
 ---
-<html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>{title} · AI场景导航</title>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>{full}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
+<meta property="og:type" content="website"/><meta property="og:site_name" content={SITE.name}/><meta property="og:title" content={full}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/><meta property="og:locale" content="zh_CN"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content={full}/><meta name="twitter:description" content={description}/>
+<link rel="sitemap" href="/sitemap-index.xml"/><link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt"/>
+{jsonld.map(j=><script type="application/ld+json" set:html={JSON.stringify(j)}/>)}
 <style is:global>
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;background:#f7f8fb;color:#1a1d29}
-a{color:#4f46e5;text-decoration:none}a:hover{text-decoration:underline}
-header{background:#fff;border-bottom:1px solid #e6e8f0;position:sticky;top:0}
-.nav{max-width:1100px;margin:auto;display:flex;gap:24px;align-items:center;padding:14px 20px}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;background:#f7f8fb;color:#1a1d29;line-height:1.6}
+a{color:#4338ca;text-decoration:none}a:hover{text-decoration:underline}
+header{background:#fff;border-bottom:1px solid #e6e8f0}
+.nav{max-width:1100px;margin:auto;display:flex;gap:20px;align-items:center;padding:14px 20px;flex-wrap:wrap}
 .logo{font-weight:800;font-size:20px;color:#1a1d29}main{max-width:1100px;margin:auto;padding:28px 20px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
-.card{background:#fff;border:1px solid #e6e8f0;border-radius:14px;padding:18px;transition:.2s}.card:hover{box-shadow:0 6px 24px #4f46e51a;transform:translateY(-2px)}
-.muted{color:#6b7085;font-size:14px}.tag{display:inline-block;background:#eef0ff;color:#4f46e5;border-radius:99px;padding:2px 10px;font-size:12px;margin-right:6px}
-.hero{background:linear-gradient(135deg,#4f46e5,#9333ea);color:#fff;border-radius:18px;padding:36px;margin-bottom:28px}.hero h1{margin:0 0 8px;font-size:32px}
-table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}td,th{padding:10px 12px;border-bottom:1px solid #eef0f5;text-align:left;font-size:14px}th{background:#f1f2f8}
-footer{text-align:center;color:#9aa0b4;font-size:13px;padding:30px}
+.card{display:block;background:#fff;border:1px solid #e6e8f0;border-radius:14px;padding:18px}
+.muted{color:#565b70;font-size:14px}.tag{display:inline-block;background:#eef0ff;color:#3730a3;border-radius:99px;padding:2px 10px;font-size:12px;margin:2px 6px 2px 0}
+.hero{background:linear-gradient(135deg,#4338ca,#7e22ce);color:#fff;border-radius:18px;padding:36px;margin-bottom:28px}.hero h1{margin:0 0 8px;font-size:30px}
+table{width:100%;border-collapse:collapse;background:#fff}td,th{padding:10px 12px;border-bottom:1px solid #eef0f5;text-align:left;font-size:14px;vertical-align:top}th{background:#f1f2f8}
+.box{background:#fff;border:1px solid #e6e8f0;border-radius:14px;padding:22px;margin-top:32px}
+input,button{font:inherit;padding:10px 14px;border-radius:10px;border:1px solid #cfd3e0}button{background:#4338ca;color:#fff;border:0;cursor:pointer}button:disabled{background:#8b8fa8;cursor:not-allowed}
+footer{text-align:center;color:#565b70;font-size:13px;padding:30px}footer a{margin:0 6px}
+details{background:#fff;border:1px solid #e6e8f0;border-radius:10px;padding:12px 16px;margin:8px 0}summary{font-weight:600;cursor:pointer}
 </style></head><body>
-<header><div class="nav"><a class="logo" href="/">🧭 AI场景导航</a><a href="/">场景</a><a href="/hot/">🔥 热榜</a></div></header>
-<main><slot/></main><footer>数据来自公开 API 与官网，自动更新 · 定价请以官网为准</footer></body></html>
+<header><nav class="nav" aria-label="主导航"><a class="logo" href="/">🧭 AI场景导航</a><a href="/">场景</a><a href="/hot/">🔥 热榜</a><a href="#newsletter">订阅</a></nav></header>
+<main><slot/>
+<section class="box" id="newsletter" aria-labelledby="nl-h"><h2 id="nl-h" style="margin-top:0">📬 每周 AI 新工具精选</h2><p class="muted">每周一封，热榜前 10 + 场景推荐，不发广告轰炸。</p>
+{NEWSLETTER_ACTION?<form action={NEWSLETTER_ACTION} method="post" target="_blank"><label for="nl-email" class="muted">邮箱</label> <input id="nl-email" type="email" name="email" required placeholder="you@example.com"/> <button type="submit">订阅</button></form>
+:<form onsubmit="return false"><label for="nl-email" class="muted">邮箱</label> <input id="nl-email" type="email" disabled placeholder="即将开放"/> <button type="button" disabled>即将开放</button></form>}
+</section></main>
+<footer><div>{S.map(s=><a href={`/s/${s.slug}/`}>{s.name}</a>)}</div><p>数据来自公开 API 与官网，每 6 小时自动更新 · 定价请以官网为准 · <a href="/llms.txt">llms.txt</a></p></footer></body></html>

@@ -1,6 +1,20 @@
 ---
-import Base from '../../layouts/Base.astro';import S from '../../data/scenarios.json';
+import Base from '../../layouts/Base.astro';import S from '../../data/scenarios.json';import H from '../../../data/hot.json';import {SITE} from '../../site.config.mjs';
 export function getStaticPaths(){return S.map(s=>({params:{slug:s.slug},props:{s}}))}
-const {s}=Astro.props;
+const {s}=Astro.props;const url=`${SITE.url}/s/${s.slug}/`;
+const hot=H.items.filter(i=>i.scenario===s.slug).slice(0,5);
+const names=s.tools.map(t=>t.name).join('、');
+const faq=[
+ {q:`${s.name}场景用什么AI工具？`,a:`推荐：${s.tools.map(t=>`${t.name}（${t.bestFor}）`).join('；')}。`},
+ {q:`${s.name}有哪些新出的热门AI工具？`,a:hot.length?`近期热榜中属于该场景的有：${hot.map(i=>i.name).join('、')}。热榜每 6 小时自动更新。`:'当前热榜中暂无该场景的新条目，热榜每 6 小时自动更新。'},
+ {q:`这些${s.name}工具收费吗？`,a:'价格经常调整，本站未逐一核实，请以各工具官网为准。'}];
+const jsonld=[{"@context":"https://schema.org","@type":"ItemList",name:`${s.name} AI 工具推荐`,url,itemListElement:s.tools.map((t,k)=>({"@type":"ListItem",position:k+1,name:t.name,url:t.url}))},
+ {"@context":"https://schema.org","@type":"FAQPage",mainEntity:faq.map(f=>({"@type":"Question",name:f.q,acceptedAnswer:{"@type":"Answer",text:f.a}}))},
+ {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:'首页',item:SITE.url+'/'},{"@type":"ListItem",position:2,name:s.name,item:url}]}];
 ---
-<Base title={s.name}><h1>{s.name}</h1><p class="muted">{s.desc}</p><div class="grid">{s.tools.map(t=><div class="card"><h3 style="margin:0">{t.name}</h3><p>{t.intro}</p><p><span class="tag">适合</span>{t.bestFor}</p><p class="muted">定价：以官网为准（未核实）</p><a href={t.url} target="_blank" rel="nofollow noopener">访问官网 →</a></div>)}</div></Base>
+<Base title={`${s.name}用什么AI工具`} description={`${s.name}场景 AI 工具推荐：${names}。${s.desc}`} jsonld={jsonld}>
+<p class="muted"><a href="/">首页</a> › {s.name}</p><h1>{s.name}：AI 工具推荐</h1><p class="muted">{s.desc}</p>
+<div class="grid">{s.tools.map(t=><article class="card"><h2 style="margin:0;font-size:20px">{t.name}</h2><p>{t.intro}</p><p><span class="tag">适合</span>{t.bestFor}</p><p class="muted">定价：以官网为准（未核实）</p><a href={t.url} target="_blank" rel="nofollow noopener">访问 {t.name} 官网 →</a></article>)}</div>
+{hot.length>0&&<><h2 style="margin-top:32px">🔥 该场景近期热门 <a class="muted" href="/hot/">完整热榜 →</a></h2><ul>{hot.map(i=><li><a href={i.url} target="_blank" rel="nofollow noopener">{i.name}</a> <span class="muted">— {i.intro}</span></li>)}</ul></>}
+<h2 style="margin-top:32px">常见问题</h2>{faq.map(f=><details open><summary>{f.q}</summary><p>{f.a}</p></details>)}
+<h2 style="margin-top:32px">其他场景</h2><p>{S.filter(x=>x.slug!==s.slug).map(x=><a class="tag" href={`/s/${x.slug}/`}>{x.name}</a>)}</p></Base>
