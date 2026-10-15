@@ -1,0 +1,6 @@
+---
+import Base from '../../layouts/Base.astro';import S from '../../data/scenarios.json';
+export function getStaticPaths(){return S.map(s=>({params:{slug:s.slug},props:{s}}))}
+const {s}=Astro.props;
+---
+<Base title={s.name}><h1>{s.name}</h1><p class="muted">{s.desc}</p><div class="grid">{s.tools.map(t=><div class="card"><h3 style="margin:0">{t.name}</h3><p>{t.intro}</p><p><span class="tag">适合</span>{t.bestFor}</p><p class="muted">定价：以官网为准（未核实）</p><a href={t.url} target="_blank" rel="nofollow noopener">访问官网 →</a></div>)}</div></Base>

@@ -1,0 +1,7 @@
+---
+import Base from '../layouts/Base.astro';import S from '../data/scenarios.json';import H from '../../data/hot.json';
+---
+<Base title="首页"><div class="hero"><h1>按业务场景，找到对的 AI 工具</h1><p>10 大场景 · 精选工具 · 实时热榜（HN / GitHub / Hugging Face）</p></div>
+<h2>业务场景</h2><div class="grid">{S.map(s=><a class="card" href={`/s/${s.slug}/`}><h3 style="margin:0 0 6px;color:#1a1d29">{s.name}</h3><div class="muted">{s.desc}</div><p>{s.tools.map(t=><span class="tag">{t.name}</span>)}</p></a>)}</div>
+<h2 style="margin-top:32px">🔥 今日热门 <a class="muted" href="/hot/">查看全部 →</a></h2>
+<div class="grid">{H.items.slice(0,6).map(i=><a class="card" href={i.url} target="_blank"><span class="tag">{i.source}</span><b>{i.score}</b><div style="margin-top:6px;color:#1a1d29">{i.name}</div><div class="muted">{i.metric} {i.metricLabel}</div></a>)}</div></Base>

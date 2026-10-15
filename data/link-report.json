@@ -1,0 +1,346 @@
+[
+ {
+  "scenario": "vibe-coding",
+  "name": "Cursor",
+  "url": "https://cursor.com",
+  "status": 200,
+  "final": "https://cursor.com/",
+  "note": ""
+ },
+ {
+  "scenario": "vibe-coding",
+  "name": "Claude Code",
+  "url": "https://claude.com/product/claude-code",
+  "status": 200,
+  "final": "https://claude.com/product/claude-code",
+  "note": ""
+ },
+ {
+  "scenario": "vibe-coding",
+  "name": "Trae",
+  "url": "https://www.trae.ai",
+  "status": 200,
+  "final": "https://www.trae.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "vibe-coding",
+  "name": "Windsurf",
+  "url": "https://windsurf.com",
+  "status": 200,
+  "final": "https://devin.ai/desktop",
+  "note": ""
+ },
+ {
+  "scenario": "vibe-coding",
+  "name": "GitHub Copilot",
+  "url": "https://github.com/features/copilot",
+  "status": 200,
+  "final": "https://github.com/features/copilot",
+  "note": ""
+ },
+ {
+  "scenario": "no-code-apps",
+  "name": "Lovable",
+  "url": "https://lovable.dev",
+  "status": 403,
+  "final": "https://lovable.dev/",
+  "note": ""
+ },
+ {
+  "scenario": "no-code-apps",
+  "name": "Bolt",
+  "url": "https://bolt.new",
+  "status": 200,
+  "final": "https://bolt.new/",
+  "note": ""
+ },
+ {
+  "scenario": "no-code-apps",
+  "name": "v0",
+  "url": "https://v0.app",
+  "status": 200,
+  "final": "https://v0.app/",
+  "note": ""
+ },
+ {
+  "scenario": "no-code-apps",
+  "name": "Replit",
+  "url": "https://replit.com",
+  "status": 403,
+  "final": "https://replit.com/",
+  "note": ""
+ },
+ {
+  "scenario": "agents",
+  "name": "n8n",
+  "url": "https://n8n.io",
+  "status": 200,
+  "final": "https://n8n.io/",
+  "note": ""
+ },
+ {
+  "scenario": "agents",
+  "name": "Dify",
+  "url": "https://dify.ai",
+  "status": 200,
+  "final": "https://dify.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "agents",
+  "name": "扣子 Coze",
+  "url": "https://www.coze.cn",
+  "status": 200,
+  "final": "https://www.coze.cn/",
+  "note": ""
+ },
+ {
+  "scenario": "agents",
+  "name": "Zapier",
+  "url": "https://zapier.com",
+  "status": 200,
+  "final": "https://zapier.com/",
+  "note": ""
+ },
+ {
+  "scenario": "agents",
+  "name": "Manus",
+  "url": "https://manus.im",
+  "status": 200,
+  "final": "https://manus.im/",
+  "note": ""
+ },
+ {
+  "scenario": "game-dev",
+  "name": "Scenario",
+  "url": "https://www.scenario.com",
+  "status": 200,
+  "final": "https://www.scenario.com/",
+  "note": ""
+ },
+ {
+  "scenario": "game-dev",
+  "name": "Meshy",
+  "url": "https://www.meshy.ai",
+  "status": 200,
+  "final": "https://www.meshy.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "game-dev",
+  "name": "Tripo",
+  "url": "https://www.tripo3d.ai",
+  "status": 200,
+  "final": "https://www.tripo3d.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "game-dev",
+  "name": "Rosebud AI",
+  "url": "https://rosebud.ai",
+  "status": 200,
+  "final": "https://rosebud.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "game-dev",
+  "name": "Inworld",
+  "url": "https://inworld.ai",
+  "status": 200,
+  "final": "https://inworld.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "pm",
+  "name": "Notion AI",
+  "url": "https://www.notion.com/product/ai",
+  "status": 200,
+  "final": "https://www.notion.com/product/ai",
+  "note": ""
+ },
+ {
+  "scenario": "pm",
+  "name": "Figma Make",
+  "url": "https://www.figma.com/make/",
+  "status": 200,
+  "final": "https://www.figma.com/make/",
+  "note": ""
+ },
+ {
+  "scenario": "pm",
+  "name": "墨刀",
+  "url": "https://modao.cc",
+  "status": 200,
+  "final": "https://modao.cc/",
+  "note": ""
+ },
+ {
+  "scenario": "pm",
+  "name": "Granola",
+  "url": "https://www.granola.ai",
+  "status": 200,
+  "final": "https://www.granola.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "pm",
+  "name": "Perplexity",
+  "url": "https://www.perplexity.ai",
+  "status": 403,
+  "final": "https://www.perplexity.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "content",
+  "name": "ChatGPT",
+  "url": "https://chatgpt.com",
+  "status": 403,
+  "final": "https://chatgpt.com/",
+  "note": ""
+ },
+ {
+  "scenario": "content",
+  "name": "Claude",
+  "url": "https://claude.ai",
+  "status": 403,
+  "final": "https://claude.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "content",
+  "name": "Kimi",
+  "url": "https://www.kimi.com",
+  "status": 200,
+  "final": "https://www.kimi.com/",
+  "note": ""
+ },
+ {
+  "scenario": "content",
+  "name": "DeepSeek",
+  "url": "https://chat.deepseek.com",
+  "status": 202,
+  "final": "https://chat.deepseek.com/",
+  "note": ""
+ },
+ {
+  "scenario": "image-design",
+  "name": "Midjourney",
+  "url": "https://www.midjourney.com",
+  "status": 403,
+  "final": "https://www.midjourney.com/",
+  "note": ""
+ },
+ {
+  "scenario": "image-design",
+  "name": "Lovart",
+  "url": "https://www.lovart.ai",
+  "status": 200,
+  "final": "https://www.lovart.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "image-design",
+  "name": "Canva",
+  "url": "https://www.canva.com",
+  "status": 200,
+  "final": "https://www.canva.com/",
+  "note": ""
+ },
+ {
+  "scenario": "image-design",
+  "name": "即梦",
+  "url": "https://jimeng.jianying.com",
+  "status": 200,
+  "final": "https://jimeng.jianying.com/",
+  "note": ""
+ },
+ {
+  "scenario": "video",
+  "name": "可灵 Kling",
+  "url": "https://kling.ai",
+  "status": 200,
+  "final": "https://kling.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "video",
+  "name": "Runway",
+  "url": "https://runway.com",
+  "status": 200,
+  "final": "https://runway.com/",
+  "note": ""
+ },
+ {
+  "scenario": "video",
+  "name": "HeyGen",
+  "url": "https://www.heygen.com",
+  "status": 200,
+  "final": "https://www.heygen.com/",
+  "note": ""
+ },
+ {
+  "scenario": "video",
+  "name": "剪映",
+  "url": "https://www.capcut.cn",
+  "status": 200,
+  "final": "https://www.capcut.cn/",
+  "note": ""
+ },
+ {
+  "scenario": "audio",
+  "name": "ElevenLabs",
+  "url": "https://elevenlabs.io",
+  "status": 200,
+  "final": "https://elevenlabs.io/",
+  "note": ""
+ },
+ {
+  "scenario": "audio",
+  "name": "Suno",
+  "url": "https://suno.com",
+  "status": 200,
+  "final": "https://suno.com/",
+  "note": ""
+ },
+ {
+  "scenario": "audio",
+  "name": "通义听悟",
+  "url": "https://tingwu.aliyun.com",
+  "status": 200,
+  "final": "https://tingwu.aliyun.com/",
+  "note": ""
+ },
+ {
+  "scenario": "research",
+  "name": "Perplexity",
+  "url": "https://www.perplexity.ai",
+  "status": 403,
+  "final": "https://www.perplexity.ai/",
+  "note": ""
+ },
+ {
+  "scenario": "research",
+  "name": "秘塔AI搜索",
+  "url": "https://metaso.cn",
+  "status": 200,
+  "final": "https://metaso.cn/",
+  "note": ""
+ },
+ {
+  "scenario": "research",
+  "name": "NotebookLM",
+  "url": "https://notebooklm.google.com",
+  "status": 200,
+  "final": "https://notebook.google.com/",
+  "note": ""
+ },
+ {
+  "scenario": "research",
+  "name": "Elicit",
+  "url": "https://elicit.com",
+  "status": 200,
+  "final": "https://elicit.com/",
+  "note": ""
+ }
+]

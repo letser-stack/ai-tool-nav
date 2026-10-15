@@ -1,0 +1,980 @@
+{
+ "generatedAt": "2026-10-15T15:10:21.215Z",
+ "errors": [
+  "Product Hunt skipped: no PH_TOKEN"
+ ],
+ "count": 131,
+ "items": [
+  {
+   "source": "GitHub",
+   "name": "outcrawlai/scout",
+   "desc": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+   "url": "https://github.com/outcrawlai/scout",
+   "metric": 358,
+   "metricLabel": "stars/天（共803）",
+   "created": "2026-10-13T09:18:55Z",
+   "score": 7.57
+  },
+  {
+   "source": "GitHub",
+   "name": "onehumanbeing/esp32-iphone-agent",
+   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+   "metric": 604,
+   "metricLabel": "stars/天（共2317）",
+   "created": "2026-10-11T19:10:25Z",
+   "score": 6.54
+  },
+  {
+   "source": "GitHub",
+   "name": "deeplethe/solid-glass",
+   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "metric": 293,
+   "metricLabel": "stars/天（共951）",
+   "created": "2026-10-12T09:19:02Z",
+   "score": 6.35
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Use your OpenAI subscription to create audiobooks",
+   "url": "https://pdftomp3.com/connect-ai/",
+   "discuss": "https://news.ycombinator.com/item?id=50069337",
+   "metric": 171,
+   "metricLabel": "points",
+   "created": "2026-10-13T10:08:34Z",
+   "score": 6.34
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: I built a tool to track what AI leaders say and how their views change",
+   "url": "https://blumify.io/people",
+   "discuss": "https://news.ycombinator.com/item?id=50081151",
+   "metric": 117,
+   "metricLabel": "points",
+   "created": "2026-10-14T01:09:13Z",
+   "score": 6.24
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+   "url": "https://pulseos.finance",
+   "discuss": "https://news.ycombinator.com/item?id=50080275",
+   "metric": 118,
+   "metricLabel": "points",
+   "created": "2026-10-13T23:13:23Z",
+   "score": 6.19
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+   "url": "https://github.com/bherbruck/solidcraft",
+   "discuss": "https://news.ycombinator.com/item?id=50064840",
+   "metric": 141,
+   "metricLabel": "points",
+   "created": "2026-10-13T00:11:04Z",
+   "score": 5.67
+  },
+  {
+   "source": "GitHub",
+   "name": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+   "desc": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
+   "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
+   "metric": 62,
+   "metricLabel": "stars/天（共137）",
+   "created": "2026-10-13T10:13:21Z",
+   "score": 5.46
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+   "url": "https://parsimony.lasu.dev/",
+   "discuss": "https://news.ycombinator.com/item?id=50077619",
+   "metric": 77,
+   "metricLabel": "points",
+   "created": "2026-10-13T19:50:31Z",
+   "score": 5.31
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
+   "url": "https://github.com/graphicle-ai/graphicle",
+   "discuss": "https://news.ycombinator.com/item?id=50088713",
+   "metric": 46,
+   "metricLabel": "points",
+   "created": "2026-10-14T15:00:41Z",
+   "score": 4.94
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: An experimental pattern-first DAW that supports MCP",
+   "url": "https://github.com/andrewfader/blokkily",
+   "discuss": "https://news.ycombinator.com/item?id=50064438",
+   "metric": 84,
+   "metricLabel": "points",
+   "created": "2026-10-12T23:21:12Z",
+   "score": 4.84
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+   "url": "https://github.com/SaarthurR/atticus-mac",
+   "discuss": "https://news.ycombinator.com/item?id=50049588",
+   "metric": 115,
+   "metricLabel": "points",
+   "created": "2026-10-12T00:15:12Z",
+   "score": 4.64
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "discuss": "https://news.ycombinator.com/item?id=50018817",
+   "metric": 419,
+   "metricLabel": "points",
+   "created": "2026-10-09T11:03:48Z",
+   "score": 4.45
+  },
+  {
+   "source": "GitHub",
+   "name": "vakandi/opencode-rust",
+   "desc": "The open source AI coding agent, in Rust. CLI, TUI and HTTP server for local AI agents — no Docker required.",
+   "url": "https://github.com/vakandi/opencode-rust",
+   "metric": 29,
+   "metricLabel": "stars/天（共71）",
+   "created": "2026-10-13T03:36:43Z",
+   "score": 4.37
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Building an LLM from Scratch in TypeScript",
+   "url": "https://book.humanexperiences.io/",
+   "discuss": "https://news.ycombinator.com/item?id=50085332",
+   "metric": 32,
+   "metricLabel": "points",
+   "created": "2026-10-14T10:29:56Z",
+   "score": 4.12
+  },
+  {
+   "source": "GitHub",
+   "name": "SouravBeraAkaSpeed/xiryn",
+   "desc": "Xiryn — the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux desktop in Docker, any model with your keys, an encrypted vault, and control from Telegram.",
+   "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+   "metric": 44,
+   "metricLabel": "stars/天（共178）",
+   "created": "2026-10-11T13:12:31Z",
+   "score": 3.86
+  },
+  {
+   "source": "GitHub",
+   "name": "NousResearch/hermes-official-plugins",
+   "desc": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
+   "url": "https://github.com/NousResearch/hermes-official-plugins",
+   "metric": 60,
+   "metricLabel": "stars/天（共284）",
+   "created": "2026-10-10T20:51:25Z",
+   "score": 3.76
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Deslop – Oxlint rules for AI-generated TypeScript",
+   "url": "https://github.com/maharshi365/deslop",
+   "discuss": "https://news.ycombinator.com/item?id=50075809",
+   "metric": 32,
+   "metricLabel": "points",
+   "created": "2026-10-13T17:52:57Z",
+   "score": 3.73
+  },
+  {
+   "source": "GitHub",
+   "name": "FeedHive/ai-slop-detector",
+   "desc": "120 patterns that make writing read like AI slop, with an agent skill for Claude Code and Codex.",
+   "url": "https://github.com/FeedHive/ai-slop-detector",
+   "metric": 24,
+   "metricLabel": "stars/天（共76）",
+   "created": "2026-10-12T09:38:49Z",
+   "score": 3.73
+  },
+  {
+   "source": "GitHub",
+   "name": "Ayzzz123/mcd-coupon-strategist",
+   "desc": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
+   "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
+   "metric": 67,
+   "metricLabel": "stars/天（共342）",
+   "created": "2026-10-10T12:59:19Z",
+   "score": 3.68
+  },
+  {
+   "source": "GitHub",
+   "name": "composo-ai/DishwasherBench",
+   "desc": "A dishwasher-loading game on a physical simulation of one real machine, built to benchmark language models and playable in a browser. The game inside is called Spotless.",
+   "url": "https://github.com/composo-ai/DishwasherBench",
+   "metric": 20,
+   "metricLabel": "stars/天（共67）",
+   "created": "2026-10-12T08:08:16Z",
+   "score": 3.51
+  },
+  {
+   "source": "GitHub",
+   "name": "sepehr071/awesome-iran-mcp",
+   "desc": "19 open-source MCP servers (308 tools) that give AI agents the Iranian web: Digikala, Snappfood, Jabama, MrBilit, Paziresh24, Taaghche and more. Prices in Toman.",
+   "url": "https://github.com/sepehr071/awesome-iran-mcp",
+   "metric": 25,
+   "metricLabel": "stars/天（共102）",
+   "created": "2026-10-11T12:42:59Z",
+   "score": 3.33
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Jevcrawl – A web crawler for AI agents with no LLM in the crawl loop",
+   "url": "https://github.com/RayenMlayeh/jevcrawl",
+   "discuss": "https://news.ycombinator.com/item?id=50080450",
+   "metric": 21,
+   "metricLabel": "points",
+   "created": "2026-10-13T23:35:20Z",
+   "score": 3.12
+  },
+  {
+   "source": "GitHub",
+   "name": "HRuiCcc/RuiC-oc-ferry",
+   "desc": "把 OpenCode 的免费模型摆渡给 WorkBuddy —— 隔离运行时、并发检测、判定缓存、一键导入、本机 OpenAI 兼容转发口",
+   "url": "https://github.com/HRuiCcc/RuiC-oc-ferry",
+   "metric": 32,
+   "metricLabel": "stars/天（共168）",
+   "created": "2026-10-10T08:59:18Z",
+   "score": 3.01
+  },
+  {
+   "source": "GitHub",
+   "name": "RayenMlayeh/jevcrawl",
+   "desc": "MCP server and CLI that crawls websites for AI agents: finds the answer page 2x more often than Crawl4AI, 10x cheaper per answer than letting Claude crawl.",
+   "url": "https://github.com/RayenMlayeh/jevcrawl",
+   "metric": 16,
+   "metricLabel": "stars/天（共64）",
+   "created": "2026-10-11T17:06:36Z",
+   "score": 3.01
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: MemorySync – Memory for AI Agents",
+   "url": "https://memorysync.io/try",
+   "discuss": "https://news.ycombinator.com/item?id=50070688",
+   "metric": 22,
+   "metricLabel": "points",
+   "created": "2026-10-13T12:35:42Z",
+   "score": 3
+  },
+  {
+   "source": "GitHub",
+   "name": "LosaLosSantos/aurelio-finance",
+   "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+   "url": "https://github.com/LosaLosSantos/aurelio-finance",
+   "metric": 384,
+   "metricLabel": "stars/天（共3376）",
+   "created": "2026-10-06T20:14:19Z",
+   "score": 3
+  },
+  {
+   "source": "GitHub",
+   "name": "init-co-jp/diff-tour",
+   "desc": "Walk through a diff the way a senior engineer reads it. A read-only TUI that turns a git change into a guided tour.",
+   "url": "https://github.com/init-co-jp/diff-tour",
+   "metric": 27,
+   "metricLabel": "stars/天（共143）",
+   "created": "2026-10-10T09:19:05Z",
+   "score": 2.89
+  },
+  {
+   "source": "GitHub",
+   "name": "BlenderGPT3D/blender-ai-addon",
+   "desc": "Blender add-on: create and edit 3D models by chatting with AI - send text or an image, get working bpy code",
+   "url": "https://github.com/BlenderGPT3D/blender-ai-addon",
+   "metric": 34,
+   "metricLabel": "stars/天（共214）",
+   "created": "2026-10-09T08:34:03Z",
+   "score": 2.65
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Jevman – AI decision models play Pac-Man",
+   "url": "https://opper.ai/jevman-benchmark/",
+   "discuss": "https://news.ycombinator.com/item?id=50007993",
+   "metric": 81,
+   "metricLabel": "points",
+   "created": "2026-10-08T16:34:13Z",
+   "score": 2.59
+  },
+  {
+   "source": "GitHub",
+   "name": "thesysdev/open-intelligent-ui",
+   "desc": "An open-source take on ChatGPT's Intelligent UI: answers stream as interactive UI (maps, photos, charts, drawings and working tools). Built with OpenUI.",
+   "url": "https://github.com/thesysdev/open-intelligent-ui",
+   "metric": 51,
+   "metricLabel": "stars/天（共380）",
+   "created": "2026-10-08T05:37:45Z",
+   "score": 2.49
+  },
+  {
+   "source": "GitHub",
+   "name": "lawrencewzen/wx-bot",
+   "desc": "把微信接入你的 AI Agent（Grok / Muse / Claude 等）· Connect WeChat to your personal AI agent via official iLink",
+   "url": "https://github.com/lawrencewzen/wx-bot",
+   "metric": 22,
+   "metricLabel": "stars/天（共137）",
+   "created": "2026-10-09T12:51:25Z",
+   "score": 2.42
+  },
+  {
+   "source": "GitHub",
+   "name": "mw00/project-maya",
+   "desc": "Project Maya - run GLM-5.3-Flash (321B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
+   "url": "https://github.com/mw00/project-maya",
+   "metric": 103,
+   "metricLabel": "stars/天（共890）",
+   "created": "2026-10-06T22:55:13Z",
+   "score": 2.41
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
+   "url": "https://github.com/thesnarkitecht/rembrandt",
+   "discuss": "https://news.ycombinator.com/item?id=50012199",
+   "metric": 47,
+   "metricLabel": "points",
+   "created": "2026-10-08T21:00:55Z",
+   "score": 2.19
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+   "url": "https://github.com/edrisranjbar/lifeos",
+   "discuss": "https://news.ycombinator.com/item?id=50014150",
+   "metric": 41,
+   "metricLabel": "points",
+   "created": "2026-10-09T00:02:19Z",
+   "score": 2.11
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes",
+   "url": "https://github.com/plimsollmark/plimsoll",
+   "discuss": "https://news.ycombinator.com/item?id=50049388",
+   "metric": 16,
+   "metricLabel": "points",
+   "created": "2026-10-11T23:47:59Z",
+   "score": 2
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Mira, AI Walking Tours",
+   "url": "https://www.mira.tours/wander",
+   "discuss": "https://news.ycombinator.com/item?id=50045340",
+   "metric": 16,
+   "metricLabel": "points",
+   "created": "2026-10-11T17:04:21Z",
+   "score": 1.92
+  },
+  {
+   "source": "HF-spaces",
+   "name": "autotrust/shorts",
+   "url": "https://huggingface.co/spaces/autotrust/shorts",
+   "metric": 45,
+   "metricLabel": "trending（likes 80）",
+   "created": "2026-10-14T22:42:16.000Z",
+   "score": 1.86
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
+   "url": "https://pocketty.app/",
+   "discuss": "https://news.ycombinator.com/item?id=50009634",
+   "metric": 32,
+   "metricLabel": "points",
+   "created": "2026-10-08T18:11:52Z",
+   "score": 1.83
+  },
+  {
+   "source": "HF-spaces",
+   "name": "autotrust/news",
+   "url": "https://huggingface.co/spaces/autotrust/news",
+   "metric": 44,
+   "metricLabel": "trending（likes 77）",
+   "created": "2026-10-14T22:10:52.000Z",
+   "score": 1.82
+  },
+  {
+   "source": "HF-spaces",
+   "name": "fishaudio/Drama-3",
+   "url": "https://huggingface.co/spaces/fishaudio/Drama-3",
+   "metric": 53,
+   "metricLabel": "trending（likes 53）",
+   "created": "2026-10-13T20:21:09.000Z",
+   "score": 1.77
+  },
+  {
+   "source": "HF-models",
+   "name": "autotrust/JEV-35B",
+   "url": "https://huggingface.co/autotrust/JEV-35B",
+   "metric": 570,
+   "metricLabel": "trending（likes 927）",
+   "created": "2026-10-11T01:22:03.000Z",
+   "score": 1.62
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: AI SRE Arena, an Open Benchmark for AI SRE Agents on Kubernetes",
+   "url": "https://github.com/edgedelta/project-arena",
+   "discuss": "https://news.ycombinator.com/item?id=50008642",
+   "metric": 24,
+   "metricLabel": "points",
+   "created": "2026-10-08T17:13:08Z",
+   "score": 1.58
+  },
+  {
+   "source": "GitHub",
+   "name": "robertkarl/UnbiasedStrata",
+   "desc": "Strata minus the bullshit. clone, rsync to prod, compile and go",
+   "url": "https://github.com/robertkarl/UnbiasedStrata",
+   "metric": 12,
+   "metricLabel": "stars/天（共97）",
+   "created": "2026-10-07T19:53:26Z",
+   "score": 1.58
+  },
+  {
+   "source": "GitHub",
+   "name": "jiwoochris/artex-global",
+   "desc": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
+   "url": "https://github.com/jiwoochris/artex-global",
+   "metric": 128,
+   "metricLabel": "stars/天（共1532）",
+   "created": "2026-10-03T14:49:48Z",
+   "score": 1.56
+  },
+  {
+   "source": "HN",
+   "name": "Show HN: A simple to-do app for iPhone, Mac, and your agent",
+   "url": "https://ilia.page/writing/introducing-nagare",
+   "discuss": "https://news.ycombinator.com/item?id=50029607",
+   "metric": 16,
+   "metricLabel": "points",
+   "created": "2026-10-10T04:37:13Z",
+   "score": 1.54
+  },
+  {
+   "source": "HF-models",
+   "name": "LiquidAI/LFM2.5-24B-A2B",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+   "metric": 358,
+   "metricLabel": "trending（likes 361）",
+   "created": "2026-10-12T05:35:46.000Z",
+   "score": 1.53
+  },
+  {
+   "source": "GitHub",
+   "name": "QingYunA/answer-me-with-html",
+   "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "metric": 260,
+   "metricLabel": "stars/天（共3434）",
+   "created": "2026-10-02T09:57:40Z",
+   "score": 1.5
+  },
+  {
+   "source": "GitHub",
+   "name": "VecSzn/PolyStrata",
+   "desc": "Run large AI models on your own PC: Qwen3.8-Flash-Next, GLM 5.3 Flash, Qwen3.6, Ornith 1.5 and Gemma 4. One-click install for Windows and Linux, OpenAI/Anthropic API on localhost, image input. Built on Strata.",
+   "url": "https://github.com/VecSzn/PolyStrata",
+   "metric": 14,
+   "metricLabel": "stars/天（共125）",
+   "created": "2026-10-06T21:09:40Z",
+   "score": 1.45
+  },
+  {
+   "source": "HF-models",
+   "name": "Qwen/Qwen-Image-2.1-Turbo",
+   "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+   "metric": 756,
+   "metricLabel": "trending（likes 844）",
+   "created": "2026-10-09T04:50:01.000Z",
+   "score": 1.39
+  },
+  {
+   "source": "GitHub",
+   "name": "longsurf-ai/openchart",
+   "desc": "OSS trading workspace with your favorite agents",
+   "url": "https://github.com/longsurf-ai/openchart",
+   "metric": 20,
+   "metricLabel": "stars/天（共198）",
+   "created": "2026-10-05T16:16:41Z",
+   "score": 1.36
+  },
+  {
+   "source": "GitHub",
+   "name": "fidipro/gluon",
+   "desc": "Control platform for coding agents",
+   "url": "https://github.com/fidipro/gluon",
+   "metric": 7,
+   "metricLabel": "stars/天（共54）",
+   "created": "2026-10-07T23:23:36Z",
+   "score": 1.34
+  },
+  {
+   "source": "GitHub",
+   "name": "dreamscroll-lab/asamana",
+   "desc": "Asamana is an AI-driven emergent narrative engine.  ",
+   "url": "https://github.com/dreamscroll-lab/asamana",
+   "metric": 10,
+   "metricLabel": "stars/天（共93）",
+   "created": "2026-10-06T11:00:23Z",
+   "score": 1.22
+  },
+  {
+   "source": "GitHub",
+   "name": "Folkbench/folkbench",
+   "desc": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+   "url": "https://github.com/Folkbench/folkbench",
+   "metric": 84,
+   "metricLabel": "stars/天（共1108）",
+   "created": "2026-10-02T09:50:45Z",
+   "score": 1.21
+  },
+  {
+   "source": "GitHub",
+   "name": "deeplethe/fde-gym",
+   "desc": "The online judge for the LLM era. Every case is a real customer delivery: you work it with a coding agent, and your system is judged once it is live.",
+   "url": "https://github.com/deeplethe/fde-gym",
+   "metric": 10,
+   "metricLabel": "stars/天（共91）",
+   "created": "2026-10-06T09:04:48Z",
+   "score": 1.21
+  },
+  {
+   "source": "GitHub",
+   "name": "Fazmin/AILearningGuide",
+   "desc": "Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning and quantization and more.",
+   "url": "https://github.com/Fazmin/AILearningGuide",
+   "metric": 17,
+   "metricLabel": "stars/天（共179）",
+   "created": "2026-10-05T02:29:23Z",
+   "score": 1.19
+  },
+  {
+   "source": "GitHub",
+   "name": "Canvixel-Eloweny/ai-bot-groupmate",
+   "desc": "Estrella Bot · QQ 群 AI 群友机器人。把 QQ 小号接给任意 OpenAI 兼容模型（本机 / DeepSeek / 智谱 / 通义），让 AI 像群友一样插话、接梗、潜水。OneBot v11 + NapCat，零构建网页控制台。Apache-2.0",
+   "url": "https://github.com/Canvixel-Eloweny/ai-bot-groupmate",
+   "metric": 7,
+   "metricLabel": "stars/天（共58）",
+   "created": "2026-10-07T03:06:45Z",
+   "score": 1.18
+  },
+  {
+   "source": "GitHub",
+   "name": "chenxiachan/textfold",
+   "desc": "Zoom any paper for your better understanding",
+   "url": "https://github.com/chenxiachan/textfold",
+   "metric": 17,
+   "metricLabel": "stars/天（共181）",
+   "created": "2026-10-04T22:19:52Z",
+   "score": 1.16
+  },
+  {
+   "source": "HF-models",
+   "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "metric": 409,
+   "metricLabel": "trending（likes 469）",
+   "created": "2026-10-09T16:30:48.000Z",
+   "score": 1.14
+  },
+  {
+   "source": "GitHub",
+   "name": "THUROI0787/absent-author",
+   "desc": "Research and writing can be automated. Authorship cannot. Evidence list + agent skills for spotting AI-produced papers no human stood behind.",
+   "url": "https://github.com/THUROI0787/absent-author",
+   "metric": 12,
+   "metricLabel": "stars/天（共120）",
+   "created": "2026-10-05T08:41:20Z",
+   "score": 1.11
+  },
+  {
+   "source": "GitHub",
+   "name": "mmlong818/open-academic-paper-gen",
+   "desc": "Multi-agent pipeline that turns a research topic into a draft paper grounded in real literature, with citation hallucination detection and claim-support checking.",
+   "url": "https://github.com/mmlong818/open-academic-paper-gen",
+   "metric": 7,
+   "metricLabel": "stars/天（共62）",
+   "created": "2026-10-06T16:12:42Z",
+   "score": 1.11
+  },
+  {
+   "source": "GitHub",
+   "name": "Harvil1/codeAgent",
+   "desc": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
+   "url": "https://github.com/Harvil1/codeAgent",
+   "metric": 53,
+   "metricLabel": "stars/天（共706）",
+   "created": "2026-10-02T05:15:41Z",
+   "score": 1.06
+  },
+  {
+   "source": "GitHub",
+   "name": "whirlchat/whirl",
+   "desc": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
+   "url": "https://github.com/whirlchat/whirl",
+   "metric": 39,
+   "metricLabel": "stars/天（共507）",
+   "created": "2026-10-02T13:50:42Z",
+   "score": 1.04
+  },
+  {
+   "source": "GitHub",
+   "name": "strands-agents/box",
+   "desc": "Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the network. Box combines OS isolation with default-deny Dogwood policies and credential injection that keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support planned.",
+   "url": "https://github.com/strands-agents/box",
+   "metric": 32,
+   "metricLabel": "stars/天（共405）",
+   "created": "2026-10-02T20:34:08Z",
+   "score": 1.03
+  },
+  {
+   "source": "HF-models",
+   "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+   "metric": 666,
+   "metricLabel": "trending（likes 764）",
+   "created": "2026-10-07T07:07:30.000Z",
+   "score": 1.01
+  },
+  {
+   "source": "GitHub",
+   "name": "opensec-git/Pi-Bolt",
+   "desc": "Pi, the coding agent, compiled ahead of time to native code. Starts 3× sooner than Pi on Bun and uses about a third of its CPU.",
+   "url": "https://github.com/opensec-git/Pi-Bolt",
+   "metric": 26,
+   "metricLabel": "stars/天（共330）",
+   "created": "2026-10-02T18:35:24Z",
+   "score": 0.96
+  },
+  {
+   "source": "GitHub",
+   "name": "Microqian2th/dsh-codex-effort-slider",
+   "desc": "Codex 风格的推理等级滑条（DeepSeek Harness 插件）：可拖动连续滑条 + 高档位渐变星尘特效",
+   "url": "https://github.com/Microqian2th/dsh-codex-effort-slider",
+   "metric": 11,
+   "metricLabel": "stars/天（共122）",
+   "created": "2026-10-04T12:33:41Z",
+   "score": 0.96
+  },
+  {
+   "source": "HF-spaces",
+   "name": "hugging-apps/qwen-qwen-image-2-1-turbo",
+   "url": "https://huggingface.co/spaces/hugging-apps/qwen-qwen-image-2-1-turbo",
+   "metric": 51,
+   "metricLabel": "trending（likes 63）",
+   "created": "2026-10-09T14:34:02.000Z",
+   "score": 0.94
+  },
+  {
+   "source": "GitHub",
+   "name": "weike-zhang/ai-novel-studio",
+   "desc": "AI novel generation with world building, interactive choices, and persistent character state. Next.js + Go. AI 小说创作台。",
+   "url": "https://github.com/weike-zhang/ai-novel-studio",
+   "metric": 18,
+   "metricLabel": "stars/天（共225）",
+   "created": "2026-10-03T06:08:29Z",
+   "score": 0.93
+  },
+  {
+   "source": "GitHub",
+   "name": "Sev7eEn7/dsh-sieve",
+   "desc": "dsh-sieve: context engineering & token optimization plugin for DeepSeek Harness (DSH) — tool output filtering, context pruning, progressive skill disclosure. 36% smaller payload in offline replay. DSH 上下文管理与 token 优化节省插件。",
+   "url": "https://github.com/Sev7eEn7/dsh-sieve",
+   "metric": 10,
+   "metricLabel": "stars/天（共108）",
+   "created": "2026-10-04T12:30:42Z",
+   "score": 0.93
+  },
+  {
+   "source": "HF-models",
+   "name": "autotrust/JEV-35B-NVFP4",
+   "url": "https://huggingface.co/autotrust/JEV-35B-NVFP4",
+   "metric": 209,
+   "metricLabel": "trending（likes 311）",
+   "created": "2026-10-11T03:05:28.000Z",
+   "score": 0.93
+  },
+  {
+   "source": "GitHub",
+   "name": "daimonia-ai/STC-Simplified-Technical-Chinese",
+   "desc": "STC 简明技术性中文：给 AI 用的中文写作规范 · Simplified Technical Chinese: writing rules, a dictionary, and a CLI that help AI agents write and check Chinese text.",
+   "url": "https://github.com/daimonia-ai/STC-Simplified-Technical-Chinese",
+   "metric": 6,
+   "metricLabel": "stars/天（共56）",
+   "created": "2026-10-05T17:31:29Z",
+   "score": 0.91
+  },
+  {
+   "source": "GitHub",
+   "name": "ChangWenC/understanding-ladder",
+   "desc": "Karpathy's understanding ladder as agent skills: auto-pick text, diagram, interactive HTML, or video storyboard for any explanation. Nothing cut. English + 中文.",
+   "url": "https://github.com/ChangWenC/understanding-ladder",
+   "metric": 8,
+   "metricLabel": "stars/天（共86）",
+   "created": "2026-10-04T21:41:34Z",
+   "score": 0.9
+  },
+  {
+   "source": "HF-models",
+   "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+   "metric": 402,
+   "metricLabel": "trending（likes 481）",
+   "created": "2026-10-08T01:47:26.000Z",
+   "score": 0.9
+  },
+  {
+   "source": "GitHub",
+   "name": "omarqaterge/hermes-mobile-app",
+   "desc": "Your agent, on your phone. A native Android app for Hermes Agent, running entirely on-device (Termux).",
+   "url": "https://github.com/omarqaterge/hermes-mobile-app",
+   "metric": 7,
+   "metricLabel": "stars/天（共70）",
+   "created": "2026-10-04T22:51:20Z",
+   "score": 0.87
+  },
+  {
+   "source": "GitHub",
+   "name": "Andiii208/seu-handbook-skill",
+   "desc": "把《东南大学大学生手册（2025）》变成可装进本地 Agent 的 Skill：规章全文按条拆分可溯源，高频加分/评奖/绩点表结构化，官方渠道清单处理每年变化的信息",
+   "url": "https://github.com/Andiii208/seu-handbook-skill",
+   "metric": 5,
+   "metricLabel": "stars/天（共49）",
+   "created": "2026-10-05T15:50:15Z",
+   "score": 0.84
+  },
+  {
+   "source": "HF-spaces",
+   "name": "lightonai/LightOnOCR-3-Demo",
+   "url": "https://huggingface.co/spaces/lightonai/LightOnOCR-3-Demo",
+   "metric": 51,
+   "metricLabel": "trending（likes 53）",
+   "created": "2026-10-08T14:16:22.000Z",
+   "score": 0.82
+  },
+  {
+   "source": "GitHub",
+   "name": "Yamz-Labs/kyojin",
+   "desc": "Kyojin: the Yamz inference engine for AMD Strix Halo (ROCm, gfx1151), built on ExLlamaV3. Runs 300B-class MoE models on one 128 GB mini PC.",
+   "url": "https://github.com/Yamz-Labs/kyojin",
+   "metric": 13,
+   "metricLabel": "stars/天（共163）",
+   "created": "2026-10-02T20:45:48Z",
+   "score": 0.8
+  },
+  {
+   "source": "GitHub",
+   "name": "Zhou-Yujing114514/deepseek-harness-linux",
+   "desc": "First-class Linux packaging for DeepSeek Harness desktop — AppImage, .deb, .tar.gz for x64/arm64, built by native CI.",
+   "url": "https://github.com/Zhou-Yujing114514/deepseek-harness-linux",
+   "metric": 10,
+   "metricLabel": "stars/天（共129）",
+   "created": "2026-10-03T04:26:57Z",
+   "score": 0.77
+  },
+  {
+   "source": "GitHub",
+   "name": "efim0v/brow",
+   "desc": "Claude Code usage and rate limits in the MacBook notch. Track the 5-hour and weekly limits of multiple Claude accounts at once, see when each resets, and sign in to each account in its own browser profile. macOS app for AI coding.",
+   "url": "https://github.com/efim0v/brow",
+   "metric": 5,
+   "metricLabel": "stars/天（共55）",
+   "created": "2026-10-04T21:14:52Z",
+   "score": 0.75
+  },
+  {
+   "source": "HF-models",
+   "name": "vllm-sr/d3",
+   "url": "https://huggingface.co/vllm-sr/d3",
+   "metric": 178,
+   "metricLabel": "trending（likes 183）",
+   "created": "2026-10-10T09:38:30.000Z",
+   "score": 0.74
+  },
+  {
+   "source": "GitHub",
+   "name": "yxq953/MuseLite",
+   "desc": "MuseLite is an open-source AI workspace combining chat, Agent tools, browser automation, and scheduled tasks for users who enjoy Muse and Dots.",
+   "url": "https://github.com/yxq953/MuseLite",
+   "metric": 8,
+   "metricLabel": "stars/天（共101）",
+   "created": "2026-10-02T20:10:49Z",
+   "score": 0.67
+  },
+  {
+   "source": "GitHub",
+   "name": "Geramy/LemonSeed-Studio",
+   "desc": "An iPad IDE with local LLM inference on an AMD GPU over Thunderbolt: the upstream Linux amdgpu driver embedded as DriverKit, LemonSeed Engine, and live GPU telemetry.",
+   "url": "https://github.com/Geramy/LemonSeed-Studio",
+   "metric": 5,
+   "metricLabel": "stars/天（共58）",
+   "created": "2026-10-03T06:17:19Z",
+   "score": 0.6
+  },
+  {
+   "source": "HF-models",
+   "name": "openbmb/MiniCPM-V-4.7-1B",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
+   "metric": 254,
+   "metricLabel": "trending（likes 347）",
+   "created": "2026-10-06T17:40:13.000Z",
+   "score": 0.57
+  },
+  {
+   "source": "HF-models",
+   "name": "LiquidAI/LFM2.5-24B-A2B-GGUF",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
+   "metric": 148,
+   "metricLabel": "trending（likes 148）",
+   "created": "2026-10-09T18:03:23.000Z",
+   "score": 0.57
+  },
+  {
+   "source": "HF-spaces",
+   "name": "Aura1in/Krea-2-Turbo_v2",
+   "url": "https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2",
+   "metric": 58,
+   "metricLabel": "trending（likes 108）",
+   "created": "2026-10-05T07:05:39.000Z",
+   "score": 0.55
+  },
+  {
+   "source": "HF-models",
+   "name": "speridlabs/iris-3b",
+   "url": "https://huggingface.co/speridlabs/iris-3b",
+   "metric": 265,
+   "metricLabel": "trending（likes 270）",
+   "created": "2026-10-05T14:51:15.000Z",
+   "score": 0.5
+  },
+  {
+   "source": "HF-spaces",
+   "name": "tardellirs/model-pulse",
+   "url": "https://huggingface.co/spaces/tardellirs/model-pulse",
+   "metric": 73,
+   "metricLabel": "trending（likes 218）",
+   "created": "2026-10-03T13:53:19.000Z",
+   "score": 0.49
+  },
+  {
+   "source": "HF-spaces",
+   "name": "LiquidAI/system-one-arcade",
+   "url": "https://huggingface.co/spaces/LiquidAI/system-one-arcade",
+   "metric": 33,
+   "metricLabel": "trending（likes 43）",
+   "created": "2026-10-07T09:32:04.000Z",
+   "score": 0.49
+  },
+  {
+   "source": "HF-models",
+   "name": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+   "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+   "metric": 320,
+   "metricLabel": "trending（likes 349）",
+   "created": "2026-10-04T10:44:11.000Z",
+   "score": 0.47
+  },
+  {
+   "source": "GitHub",
+   "name": "Btluo1/ccb",
+   "desc": "CCB · AI 编程助手一键配置 —— 把 Trae / Qoder / CodeBuddy / WorkBuddy / Cursor / ZCode 等客户端一键接入 CCB：全部模型自动写入、自动设为默认、自动启动（仅桌面客户端开源）",
+   "url": "https://github.com/Btluo1/ccb",
+   "metric": 4,
+   "metricLabel": "stars/天（共61）",
+   "created": "2026-10-02T00:43:49Z",
+   "score": 0.46
+  },
+  {
+   "source": "HF-models",
+   "name": "LiquidAI/d1-3B",
+   "url": "https://huggingface.co/LiquidAI/d1-3B",
+   "metric": 234,
+   "metricLabel": "trending（likes 406）",
+   "created": "2026-10-05T09:55:28.000Z",
+   "score": 0.45
+  },
+  {
+   "source": "HF-spaces",
+   "name": "speridlabs/iris-3b",
+   "url": "https://huggingface.co/spaces/speridlabs/iris-3b",
+   "metric": 38,
+   "metricLabel": "trending（likes 40）",
+   "created": "2026-10-05T17:47:00.000Z",
+   "score": 0.44
+  },
+  {
+   "source": "HF-models",
+   "name": "fishaudio/drama-3",
+   "url": "https://huggingface.co/fishaudio/drama-3",
+   "metric": 387,
+   "metricLabel": "trending（likes 395）",
+   "created": "2026-10-01T04:34:57.000Z",
+   "score": 0.33
+  },
+  {
+   "source": "HF-spaces",
+   "name": "vclnhihihi/qwen-image-21-uncensored",
+   "url": "https://huggingface.co/spaces/vclnhihihi/qwen-image-21-uncensored",
+   "metric": 67,
+   "metricLabel": "trending（likes 85）",
+   "created": "2026-09-29T16:24:47.000Z",
+   "score": 0.27
+  },
+  {
+   "source": "HF-spaces",
+   "name": "hugging-apps/bfs-best-face-swap",
+   "url": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
+   "metric": 108,
+   "metricLabel": "trending（likes 263）",
+   "created": "2026-09-27T18:26:19.000Z",
+   "score": 0.26
+  },
+  {
+   "source": "HF-models",
+   "name": "Cloudflare/clef",
+   "url": "https://huggingface.co/Cloudflare/clef",
+   "metric": 254,
+   "metricLabel": "trending（likes 2166）",
+   "created": "2026-09-30T21:15:35.000Z",
+   "score": 0.25
+  },
+  {
+   "source": "HF-models",
+   "name": "Cactus-Compute/whistle",
+   "url": "https://huggingface.co/Cactus-Compute/whistle",
+   "metric": 215,
+   "metricLabel": "trending（likes 404）",
+   "created": "2026-09-30T17:13:26.000Z",
+   "score": 0.22
+  },
+  {
+   "source": "HF-spaces",
+   "name": "arudradey/qwen-image-2.1-uncensored-aio-loras",
+   "url": "https://huggingface.co/spaces/arudradey/qwen-image-2.1-uncensored-aio-loras",
+   "metric": 61,
+   "metricLabel": "trending（likes 292）",
+   "created": "2026-09-26T11:44:26.000Z",
+   "score": 0.16
+  },
+  {
+   "source": "HF-spaces",
+   "name": "pablodawson/minimax-h3-360-orbit",
+   "url": "https://huggingface.co/spaces/pablodawson/minimax-h3-360-orbit",
+   "metric": 35,
+   "metricLabel": "trending（likes 68）",
+   "created": "2026-09-28T11:36:43.000Z",
+   "score": 0.14
+  }
+ ]
+}

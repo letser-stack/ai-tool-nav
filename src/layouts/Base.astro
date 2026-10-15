@@ -1,0 +1,20 @@
+---
+const { title } = Astro.props;
+---
+<html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>{title} · AI场景导航</title>
+<style is:global>
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;background:#f7f8fb;color:#1a1d29}
+a{color:#4f46e5;text-decoration:none}a:hover{text-decoration:underline}
+header{background:#fff;border-bottom:1px solid #e6e8f0;position:sticky;top:0}
+.nav{max-width:1100px;margin:auto;display:flex;gap:24px;align-items:center;padding:14px 20px}
+.logo{font-weight:800;font-size:20px;color:#1a1d29}main{max-width:1100px;margin:auto;padding:28px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:#fff;border:1px solid #e6e8f0;border-radius:14px;padding:18px;transition:.2s}.card:hover{box-shadow:0 6px 24px #4f46e51a;transform:translateY(-2px)}
+.muted{color:#6b7085;font-size:14px}.tag{display:inline-block;background:#eef0ff;color:#4f46e5;border-radius:99px;padding:2px 10px;font-size:12px;margin-right:6px}
+.hero{background:linear-gradient(135deg,#4f46e5,#9333ea);color:#fff;border-radius:18px;padding:36px;margin-bottom:28px}.hero h1{margin:0 0 8px;font-size:32px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden}td,th{padding:10px 12px;border-bottom:1px solid #eef0f5;text-align:left;font-size:14px}th{background:#f1f2f8}
+footer{text-align:center;color:#9aa0b4;font-size:13px;padding:30px}
+</style></head><body>
+<header><div class="nav"><a class="logo" href="/">🧭 AI场景导航</a><a href="/">场景</a><a href="/hot/">🔥 热榜</a></div></header>
+<main><slot/></main><footer>数据来自公开 API 与官网，自动更新 · 定价请以官网为准</footer></body></html>

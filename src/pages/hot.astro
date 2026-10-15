@@ -1,0 +1,5 @@
+---
+import Base from '../layouts/Base.astro';import H from '../../data/hot.json';
+---
+<Base title="热榜"><h1>🔥 AI 热榜</h1><p class="muted">更新于 {new Date(H.generatedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间）· 共 {H.count} 条 · 评分=源内标准化热度×权重×7天新鲜度衰减{H.errors.length? ` · 备注：${H.errors.join('；')}`:''}</p>
+<table><tr><th>#</th><th>热度</th><th>来源</th><th>名称</th><th>指标</th></tr>{H.items.map((i,k)=><tr><td>{k+1}</td><td><b>{i.score}</b></td><td><span class="tag">{i.source}</span></td><td><a href={i.url} target="_blank" rel="nofollow noopener">{i.name}</a>{i.desc&&<div class="muted">{i.desc}</div>}</td><td class="muted">{i.metric} {i.metricLabel}</td></tr>)}</table></Base>
