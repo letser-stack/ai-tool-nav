@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T15:10:21.215Z",
+ "generatedAt": "2026-10-15T15:29:58.634Z",
  "errors": [
   "Product Hunt skipped: no PH_TOKEN"
  ],
@@ -10,10 +10,10 @@
    "name": "outcrawlai/scout",
    "desc": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
    "url": "https://github.com/outcrawlai/scout",
-   "metric": 358,
+   "metric": 356,
    "metricLabel": "stars/天（共803）",
    "created": "2026-10-13T09:18:55Z",
-   "score": 7.57
+   "score": 7.55
   },
   {
    "source": "GitHub",
@@ -21,19 +21,9 @@
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
    "metric": 604,
-   "metricLabel": "stars/天（共2317）",
+   "metricLabel": "stars/天（共2322）",
    "created": "2026-10-11T19:10:25Z",
-   "score": 6.54
-  },
-  {
-   "source": "GitHub",
-   "name": "deeplethe/solid-glass",
-   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
-   "url": "https://github.com/deeplethe/solid-glass",
-   "metric": 293,
-   "metricLabel": "stars/天（共951）",
-   "created": "2026-10-12T09:19:02Z",
-   "score": 6.35
+   "score": 6.53
   },
   {
    "source": "HN",
@@ -43,7 +33,17 @@
    "metric": 171,
    "metricLabel": "points",
    "created": "2026-10-13T10:08:34Z",
-   "score": 6.34
+   "score": 6.33
+  },
+  {
+   "source": "GitHub",
+   "name": "deeplethe/solid-glass",
+   "desc": "A design system for AI applications. Material, physical, tactile, technical.",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "metric": 292,
+   "metricLabel": "stars/天（共951）",
+   "created": "2026-10-12T09:19:02Z",
+   "score": 6.33
   },
   {
    "source": "HN",
@@ -53,7 +53,7 @@
    "metric": 117,
    "metricLabel": "points",
    "created": "2026-10-14T01:09:13Z",
-   "score": 6.24
+   "score": 6.23
   },
   {
    "source": "HN",
@@ -63,7 +63,7 @@
    "metric": 118,
    "metricLabel": "points",
    "created": "2026-10-13T23:13:23Z",
-   "score": 6.19
+   "score": 6.17
   },
   {
    "source": "HN",
@@ -73,17 +73,17 @@
    "metric": 141,
    "metricLabel": "points",
    "created": "2026-10-13T00:11:04Z",
-   "score": 5.67
+   "score": 5.66
   },
   {
    "source": "GitHub",
    "name": "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
    "desc": "AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例",
    "url": "https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit",
-   "metric": 62,
-   "metricLabel": "stars/天（共137）",
+   "metric": 64,
+   "metricLabel": "stars/天（共142）",
    "created": "2026-10-13T10:13:21Z",
-   "score": 5.46
+   "score": 5.49
   },
   {
    "source": "HN",
@@ -93,7 +93,7 @@
    "metric": 77,
    "metricLabel": "points",
    "created": "2026-10-13T19:50:31Z",
-   "score": 5.31
+   "score": 5.3
   },
   {
    "source": "HN",
@@ -103,7 +103,7 @@
    "metric": 46,
    "metricLabel": "points",
    "created": "2026-10-14T15:00:41Z",
-   "score": 4.94
+   "score": 4.93
   },
   {
    "source": "HN",
@@ -113,7 +113,7 @@
    "metric": 84,
    "metricLabel": "points",
    "created": "2026-10-12T23:21:12Z",
-   "score": 4.84
+   "score": 4.83
   },
   {
    "source": "HN",
@@ -123,7 +123,7 @@
    "metric": 115,
    "metricLabel": "points",
    "created": "2026-10-12T00:15:12Z",
-   "score": 4.64
+   "score": 4.63
   },
   {
    "source": "HN",
@@ -140,10 +140,10 @@
    "name": "vakandi/opencode-rust",
    "desc": "The open source AI coding agent, in Rust. CLI, TUI and HTTP server for local AI agents — no Docker required.",
    "url": "https://github.com/vakandi/opencode-rust",
-   "metric": 29,
+   "metric": 28,
    "metricLabel": "stars/天（共71）",
    "created": "2026-10-13T03:36:43Z",
-   "score": 4.37
+   "score": 4.32
   },
   {
    "source": "HN",
@@ -153,27 +153,27 @@
    "metric": 32,
    "metricLabel": "points",
    "created": "2026-10-14T10:29:56Z",
-   "score": 4.12
+   "score": 4.11
   },
   {
    "source": "GitHub",
    "name": "SouravBeraAkaSpeed/xiryn",
    "desc": "Xiryn — the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux desktop in Docker, any model with your keys, an encrypted vault, and control from Telegram.",
    "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
-   "metric": 44,
+   "metric": 43,
    "metricLabel": "stars/天（共178）",
    "created": "2026-10-11T13:12:31Z",
-   "score": 3.86
+   "score": 3.83
   },
   {
    "source": "GitHub",
    "name": "NousResearch/hermes-official-plugins",
    "desc": "☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.",
    "url": "https://github.com/NousResearch/hermes-official-plugins",
-   "metric": 60,
+   "metric": 59,
    "metricLabel": "stars/天（共284）",
    "created": "2026-10-10T20:51:25Z",
-   "score": 3.76
+   "score": 3.74
   },
   {
    "source": "HN",
@@ -190,10 +190,10 @@
    "name": "FeedHive/ai-slop-detector",
    "desc": "120 patterns that make writing read like AI slop, with an agent skill for Claude Code and Codex.",
    "url": "https://github.com/FeedHive/ai-slop-detector",
-   "metric": 24,
+   "metric": 23,
    "metricLabel": "stars/天（共76）",
    "created": "2026-10-12T09:38:49Z",
-   "score": 3.73
+   "score": 3.68
   },
   {
    "source": "GitHub",
@@ -203,7 +203,7 @@
    "metric": 67,
    "metricLabel": "stars/天（共342）",
    "created": "2026-10-10T12:59:19Z",
-   "score": 3.68
+   "score": 3.67
   },
   {
    "source": "GitHub",
@@ -246,16 +246,6 @@
    "score": 3.01
   },
   {
-   "source": "GitHub",
-   "name": "RayenMlayeh/jevcrawl",
-   "desc": "MCP server and CLI that crawls websites for AI agents: finds the answer page 2x more often than Crawl4AI, 10x cheaper per answer than letting Claude crawl.",
-   "url": "https://github.com/RayenMlayeh/jevcrawl",
-   "metric": 16,
-   "metricLabel": "stars/天（共64）",
-   "created": "2026-10-11T17:06:36Z",
-   "score": 3.01
-  },
-  {
    "source": "HN",
    "name": "Show HN: MemorySync – Memory for AI Agents",
    "url": "https://memorysync.io/try",
@@ -271,8 +261,18 @@
    "desc": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
    "url": "https://github.com/LosaLosSantos/aurelio-finance",
    "metric": 384,
-   "metricLabel": "stars/天（共3376）",
+   "metricLabel": "stars/天（共3378）",
    "created": "2026-10-06T20:14:19Z",
+   "score": 3
+  },
+  {
+   "source": "GitHub",
+   "name": "RayenMlayeh/jevcrawl",
+   "desc": "MCP server and CLI that crawls websites for AI agents: finds the answer page 2x more often than Crawl4AI, 10x cheaper per answer than letting Claude crawl.",
+   "url": "https://github.com/RayenMlayeh/jevcrawl",
+   "metric": 16,
+   "metricLabel": "stars/天（共64）",
+   "created": "2026-10-11T17:06:36Z",
    "score": 3
   },
   {
@@ -283,7 +283,7 @@
    "metric": 27,
    "metricLabel": "stars/天（共143）",
    "created": "2026-10-10T09:19:05Z",
-   "score": 2.89
+   "score": 2.88
   },
   {
    "source": "GitHub",
@@ -293,7 +293,7 @@
    "metric": 34,
    "metricLabel": "stars/天（共214）",
    "created": "2026-10-09T08:34:03Z",
-   "score": 2.65
+   "score": 2.64
   },
   {
    "source": "HN",
@@ -311,9 +311,9 @@
    "desc": "An open-source take on ChatGPT's Intelligent UI: answers stream as interactive UI (maps, photos, charts, drawings and working tools). Built with OpenUI.",
    "url": "https://github.com/thesysdev/open-intelligent-ui",
    "metric": 51,
-   "metricLabel": "stars/天（共380）",
+   "metricLabel": "stars/天（共381）",
    "created": "2026-10-08T05:37:45Z",
-   "score": 2.49
+   "score": 2.48
   },
   {
    "source": "GitHub",
@@ -323,17 +323,17 @@
    "metric": 22,
    "metricLabel": "stars/天（共137）",
    "created": "2026-10-09T12:51:25Z",
-   "score": 2.42
+   "score": 2.41
   },
   {
    "source": "GitHub",
    "name": "mw00/project-maya",
    "desc": "Project Maya - run GLM-5.3-Flash (321B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
    "url": "https://github.com/mw00/project-maya",
-   "metric": 103,
+   "metric": 102,
    "metricLabel": "stars/天（共890）",
    "created": "2026-10-06T22:55:13Z",
-   "score": 2.41
+   "score": 2.4
   },
   {
    "source": "HN",
@@ -363,7 +363,7 @@
    "metric": 16,
    "metricLabel": "points",
    "created": "2026-10-11T23:47:59Z",
-   "score": 2
+   "score": 1.99
   },
   {
    "source": "HN",
@@ -373,16 +373,25 @@
    "metric": 16,
    "metricLabel": "points",
    "created": "2026-10-11T17:04:21Z",
-   "score": 1.92
+   "score": 1.91
   },
   {
    "source": "HF-spaces",
    "name": "autotrust/shorts",
    "url": "https://huggingface.co/spaces/autotrust/shorts",
-   "metric": 45,
-   "metricLabel": "trending（likes 80）",
+   "metric": 47,
+   "metricLabel": "trending（likes 82）",
    "created": "2026-10-14T22:42:16.000Z",
-   "score": 1.86
+   "score": 1.91
+  },
+  {
+   "source": "HF-spaces",
+   "name": "autotrust/news",
+   "url": "https://huggingface.co/spaces/autotrust/news",
+   "metric": 45,
+   "metricLabel": "trending（likes 78）",
+   "created": "2026-10-14T22:10:52.000Z",
+   "score": 1.84
   },
   {
    "source": "HN",
@@ -393,15 +402,6 @@
    "metricLabel": "points",
    "created": "2026-10-08T18:11:52Z",
    "score": 1.83
-  },
-  {
-   "source": "HF-spaces",
-   "name": "autotrust/news",
-   "url": "https://huggingface.co/spaces/autotrust/news",
-   "metric": 44,
-   "metricLabel": "trending（likes 77）",
-   "created": "2026-10-14T22:10:52.000Z",
-   "score": 1.82
   },
   {
    "source": "HF-spaces",
@@ -416,10 +416,10 @@
    "source": "HF-models",
    "name": "autotrust/JEV-35B",
    "url": "https://huggingface.co/autotrust/JEV-35B",
-   "metric": 570,
-   "metricLabel": "trending（likes 927）",
+   "metric": 580,
+   "metricLabel": "trending（likes 940）",
    "created": "2026-10-11T01:22:03.000Z",
-   "score": 1.62
+   "score": 1.63
   },
   {
    "source": "HN",
@@ -446,10 +446,19 @@
    "name": "jiwoochris/artex-global",
    "desc": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
    "url": "https://github.com/jiwoochris/artex-global",
-   "metric": 128,
+   "metric": 127,
    "metricLabel": "stars/天（共1532）",
    "created": "2026-10-03T14:49:48Z",
    "score": 1.56
+  },
+  {
+   "source": "HF-models",
+   "name": "LiquidAI/LFM2.5-24B-A2B",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+   "metric": 368,
+   "metricLabel": "trending（likes 371）",
+   "created": "2026-10-12T05:35:46.000Z",
+   "score": 1.55
   },
   {
    "source": "HN",
@@ -462,23 +471,14 @@
    "score": 1.54
   },
   {
-   "source": "HF-models",
-   "name": "LiquidAI/LFM2.5-24B-A2B",
-   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
-   "metric": 358,
-   "metricLabel": "trending（likes 361）",
-   "created": "2026-10-12T05:35:46.000Z",
-   "score": 1.53
-  },
-  {
    "source": "GitHub",
    "name": "QingYunA/answer-me-with-html",
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
    "url": "https://github.com/QingYunA/answer-me-with-html",
    "metric": 260,
-   "metricLabel": "stars/天（共3434）",
+   "metricLabel": "stars/天（共3437）",
    "created": "2026-10-02T09:57:40Z",
-   "score": 1.5
+   "score": 1.49
   },
   {
    "source": "GitHub",
@@ -494,10 +494,10 @@
    "source": "HF-models",
    "name": "Qwen/Qwen-Image-2.1-Turbo",
    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
-   "metric": 756,
-   "metricLabel": "trending（likes 844）",
+   "metric": 739,
+   "metricLabel": "trending（likes 854）",
    "created": "2026-10-09T04:50:01.000Z",
-   "score": 1.39
+   "score": 1.38
   },
   {
    "source": "GitHub",
@@ -505,9 +505,9 @@
    "desc": "OSS trading workspace with your favorite agents",
    "url": "https://github.com/longsurf-ai/openchart",
    "metric": 20,
-   "metricLabel": "stars/天（共198）",
+   "metricLabel": "stars/天（共199）",
    "created": "2026-10-05T16:16:41Z",
-   "score": 1.36
+   "score": 1.35
   },
   {
    "source": "GitHub",
@@ -517,7 +517,7 @@
    "metric": 7,
    "metricLabel": "stars/天（共54）",
    "created": "2026-10-07T23:23:36Z",
-   "score": 1.34
+   "score": 1.33
   },
   {
    "source": "GitHub",
@@ -535,7 +535,7 @@
    "desc": "AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
    "url": "https://github.com/Folkbench/folkbench",
    "metric": 84,
-   "metricLabel": "stars/天（共1108）",
+   "metricLabel": "stars/天（共1109）",
    "created": "2026-10-02T09:50:45Z",
    "score": 1.21
   },
@@ -575,7 +575,7 @@
    "desc": "Zoom any paper for your better understanding",
    "url": "https://github.com/chenxiachan/textfold",
    "metric": 17,
-   "metricLabel": "stars/天（共181）",
+   "metricLabel": "stars/天（共186）",
    "created": "2026-10-04T22:19:52Z",
    "score": 1.16
   },
@@ -583,10 +583,10 @@
    "source": "HF-models",
    "name": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "metric": 409,
-   "metricLabel": "trending（likes 469）",
+   "metric": 393,
+   "metricLabel": "trending（likes 478）",
    "created": "2026-10-09T16:30:48.000Z",
-   "score": 1.14
+   "score": 1.12
   },
   {
    "source": "GitHub",
@@ -614,7 +614,7 @@
    "desc": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
    "url": "https://github.com/Harvil1/codeAgent",
    "metric": 53,
-   "metricLabel": "stars/天（共706）",
+   "metricLabel": "stars/天（共711）",
    "created": "2026-10-02T05:15:41Z",
    "score": 1.06
   },
@@ -624,7 +624,7 @@
    "desc": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
    "url": "https://github.com/whirlchat/whirl",
    "metric": 39,
-   "metricLabel": "stars/天（共507）",
+   "metricLabel": "stars/天（共508）",
    "created": "2026-10-02T13:50:42Z",
    "score": 1.04
   },
@@ -642,10 +642,10 @@
    "source": "HF-models",
    "name": "openbmb/MiniCPM-V-4.7-35B-A3B",
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
-   "metric": 666,
-   "metricLabel": "trending（likes 764）",
+   "metric": 677,
+   "metricLabel": "trending（likes 775）",
    "created": "2026-10-07T07:07:30.000Z",
-   "score": 1.01
+   "score": 1.02
   },
   {
    "source": "GitHub",
@@ -653,7 +653,7 @@
    "desc": "Pi, the coding agent, compiled ahead of time to native code. Starts 3× sooner than Pi on Bun and uses about a third of its CPU.",
    "url": "https://github.com/opensec-git/Pi-Bolt",
    "metric": 26,
-   "metricLabel": "stars/天（共330）",
+   "metricLabel": "stars/天（共331）",
    "created": "2026-10-02T18:35:24Z",
    "score": 0.96
   },
@@ -666,6 +666,15 @@
    "metricLabel": "stars/天（共122）",
    "created": "2026-10-04T12:33:41Z",
    "score": 0.96
+  },
+  {
+   "source": "HF-models",
+   "name": "autotrust/JEV-35B-NVFP4",
+   "url": "https://huggingface.co/autotrust/JEV-35B-NVFP4",
+   "metric": 218,
+   "metricLabel": "trending（likes 320）",
+   "created": "2026-10-11T03:05:28.000Z",
+   "score": 0.95
   },
   {
    "source": "HF-spaces",
@@ -694,16 +703,7 @@
    "metric": 10,
    "metricLabel": "stars/天（共108）",
    "created": "2026-10-04T12:30:42Z",
-   "score": 0.93
-  },
-  {
-   "source": "HF-models",
-   "name": "autotrust/JEV-35B-NVFP4",
-   "url": "https://huggingface.co/autotrust/JEV-35B-NVFP4",
-   "metric": 209,
-   "metricLabel": "trending（likes 311）",
-   "created": "2026-10-11T03:05:28.000Z",
-   "score": 0.93
+   "score": 0.92
   },
   {
    "source": "GitHub",
@@ -711,7 +711,7 @@
    "desc": "STC 简明技术性中文：给 AI 用的中文写作规范 · Simplified Technical Chinese: writing rules, a dictionary, and a CLI that help AI agents write and check Chinese text.",
    "url": "https://github.com/daimonia-ai/STC-Simplified-Technical-Chinese",
    "metric": 6,
-   "metricLabel": "stars/天（共56）",
+   "metricLabel": "stars/天（共57）",
    "created": "2026-10-05T17:31:29Z",
    "score": 0.91
   },
@@ -726,15 +726,6 @@
    "score": 0.9
   },
   {
-   "source": "HF-models",
-   "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-   "metric": 402,
-   "metricLabel": "trending（likes 481）",
-   "created": "2026-10-08T01:47:26.000Z",
-   "score": 0.9
-  },
-  {
    "source": "GitHub",
    "name": "omarqaterge/hermes-mobile-app",
    "desc": "Your agent, on your phone. A native Android app for Hermes Agent, running entirely on-device (Termux).",
@@ -742,6 +733,15 @@
    "metric": 7,
    "metricLabel": "stars/天（共70）",
    "created": "2026-10-04T22:51:20Z",
+   "score": 0.87
+  },
+  {
+   "source": "HF-models",
+   "name": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+   "metric": 383,
+   "metricLabel": "trending（likes 490）",
+   "created": "2026-10-08T01:47:26.000Z",
    "score": 0.87
   },
   {
@@ -761,7 +761,7 @@
    "metric": 51,
    "metricLabel": "trending（likes 53）",
    "created": "2026-10-08T14:16:22.000Z",
-   "score": 0.82
+   "score": 0.81
   },
   {
    "source": "GitHub",
@@ -781,7 +781,16 @@
    "metric": 10,
    "metricLabel": "stars/天（共129）",
    "created": "2026-10-03T04:26:57Z",
-   "score": 0.77
+   "score": 0.76
+  },
+  {
+   "source": "HF-models",
+   "name": "vllm-sr/d3",
+   "url": "https://huggingface.co/vllm-sr/d3",
+   "metric": 188,
+   "metricLabel": "trending（likes 193）",
+   "created": "2026-10-10T09:38:30.000Z",
+   "score": 0.76
   },
   {
    "source": "GitHub",
@@ -792,15 +801,6 @@
    "metricLabel": "stars/天（共55）",
    "created": "2026-10-04T21:14:52Z",
    "score": 0.75
-  },
-  {
-   "source": "HF-models",
-   "name": "vllm-sr/d3",
-   "url": "https://huggingface.co/vllm-sr/d3",
-   "metric": 178,
-   "metricLabel": "trending（likes 183）",
-   "created": "2026-10-10T09:38:30.000Z",
-   "score": 0.74
   },
   {
    "source": "GitHub",
@@ -824,21 +824,21 @@
   },
   {
    "source": "HF-models",
-   "name": "openbmb/MiniCPM-V-4.7-1B",
-   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
-   "metric": 254,
-   "metricLabel": "trending（likes 347）",
-   "created": "2026-10-06T17:40:13.000Z",
-   "score": 0.57
+   "name": "LiquidAI/LFM2.5-24B-A2B-GGUF",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
+   "metric": 158,
+   "metricLabel": "trending（likes 158）",
+   "created": "2026-10-09T18:03:23.000Z",
+   "score": 0.6
   },
   {
    "source": "HF-models",
-   "name": "LiquidAI/LFM2.5-24B-A2B-GGUF",
-   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
-   "metric": 148,
-   "metricLabel": "trending（likes 148）",
-   "created": "2026-10-09T18:03:23.000Z",
-   "score": 0.57
+   "name": "openbmb/MiniCPM-V-4.7-1B",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B",
+   "metric": 264,
+   "metricLabel": "trending（likes 357）",
+   "created": "2026-10-06T17:40:13.000Z",
+   "score": 0.58
   },
   {
    "source": "HF-spaces",
@@ -853,10 +853,10 @@
    "source": "HF-models",
    "name": "speridlabs/iris-3b",
    "url": "https://huggingface.co/speridlabs/iris-3b",
-   "metric": 265,
-   "metricLabel": "trending（likes 270）",
+   "metric": 274,
+   "metricLabel": "trending（likes 279）",
    "created": "2026-10-05T14:51:15.000Z",
-   "score": 0.5
+   "score": 0.51
   },
   {
    "source": "HF-spaces",
@@ -877,15 +877,6 @@
    "score": 0.49
   },
   {
-   "source": "HF-models",
-   "name": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
-   "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
-   "metric": 320,
-   "metricLabel": "trending（likes 349）",
-   "created": "2026-10-04T10:44:11.000Z",
-   "score": 0.47
-  },
-  {
    "source": "GitHub",
    "name": "Btluo1/ccb",
    "desc": "CCB · AI 编程助手一键配置 —— 把 Trae / Qoder / CodeBuddy / WorkBuddy / Cursor / ZCode 等客户端一键接入 CCB：全部模型自动写入、自动设为默认、自动启动（仅桌面客户端开源）",
@@ -897,11 +888,11 @@
   },
   {
    "source": "HF-models",
-   "name": "LiquidAI/d1-3B",
-   "url": "https://huggingface.co/LiquidAI/d1-3B",
-   "metric": 234,
-   "metricLabel": "trending（likes 406）",
-   "created": "2026-10-05T09:55:28.000Z",
+   "name": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+   "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+   "metric": 300,
+   "metricLabel": "trending（likes 357）",
+   "created": "2026-10-04T10:44:11.000Z",
    "score": 0.45
   },
   {
@@ -915,12 +906,21 @@
   },
   {
    "source": "HF-models",
+   "name": "LiquidAI/d1-3B",
+   "url": "https://huggingface.co/LiquidAI/d1-3B",
+   "metric": 217,
+   "metricLabel": "trending（likes 415）",
+   "created": "2026-10-05T09:55:28.000Z",
+   "score": 0.42
+  },
+  {
+   "source": "HF-models",
    "name": "fishaudio/drama-3",
    "url": "https://huggingface.co/fishaudio/drama-3",
-   "metric": 387,
-   "metricLabel": "trending（likes 395）",
+   "metric": 402,
+   "metricLabel": "trending（likes 410）",
    "created": "2026-10-01T04:34:57.000Z",
-   "score": 0.33
+   "score": 0.34
   },
   {
    "source": "HF-spaces",
@@ -944,19 +944,19 @@
    "source": "HF-models",
    "name": "Cloudflare/clef",
    "url": "https://huggingface.co/Cloudflare/clef",
-   "metric": 254,
-   "metricLabel": "trending（likes 2166）",
+   "metric": 253,
+   "metricLabel": "trending（likes 2175）",
    "created": "2026-09-30T21:15:35.000Z",
-   "score": 0.25
+   "score": 0.24
   },
   {
    "source": "HF-models",
    "name": "Cactus-Compute/whistle",
    "url": "https://huggingface.co/Cactus-Compute/whistle",
-   "metric": 215,
-   "metricLabel": "trending（likes 404）",
+   "metric": 213,
+   "metricLabel": "trending（likes 413）",
    "created": "2026-09-30T17:13:26.000Z",
-   "score": 0.22
+   "score": 0.21
   },
   {
    "source": "HF-spaces",
