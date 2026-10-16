@@ -598,5 +598,20 @@
   "isAITool": true,
   "intro": "Pullboard是一个自主开发平台，由受治理的AI Agents根据用户批准的规格进行真实产品的构建，遵循用户设定的规则，并通过多Agent验证后才合并代码。",
   "scenario": "agents"
+ },
+ "HN:https://starskirmish.com/bench/v0-2/": {
+  "isAITool": true,
+  "intro": "Gemini 4 Argon 是 Google 推出的 Gemini 模型在 StarCraft 游戏中的实时对战演示，能自主进行星际争霸对战。",
+  "scenario": "game-dev"
+ },
+ "GitHub:https://github.com/vahmoh25/Veda": {
+  "isAITool": true,
+  "intro": "Veda是一个开源的Agentic-Native操作系统，旨在让AI Agent成为操作系统原生居民，实现自主任务执行和系统级智能交互。",
+  "scenario": "agents"
+ },
+ "HF-models:https://huggingface.co/autotrust/JEV-27B-VL": {
+  "isAITool": true,
+  "intro": "JEV-27B-VL 是由 AutoTrust 发布的 27B 参数开源视觉语言模型，支持图像理解与多模态任务。",
+  "scenario": "research"
  }
 }
