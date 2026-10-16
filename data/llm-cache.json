@@ -528,5 +528,60 @@
   "isAITool": true,
   "intro": "JEV Decision Index是一个基于Hugging Face的开源交互工具，用于评估和比较不同AI模型在多模态艺术创作中的决策表现。",
   "scenario": "image-design"
+ },
+ "GitHub:https://github.com/mmm1712/Local_AI_esp32": {
+  "isAITool": true,
+  "intro": "一个从零训练的语言模型，可完全离线运行在ESP32-S3微控制器上，并配备触摸屏聊天界面。",
+  "scenario": "agents"
+ },
+ "GitHub:https://github.com/YuyaoGe/doc2harness": {
+  "isAITool": true,
+  "intro": "Doc2Harness是一个开源基准测试框架，用于评估LLM驱动的编码Agent在长期、复杂工程任务中的表现，专注于将文档转化为可运行的代码harness。",
+  "scenario": "agents"
+ },
+ "GitHub:https://github.com/sitor-ai/frametell": {
+  "isAITool": true,
+  "intro": "Frametell是一个本地优先的AI导演代理工具，能将你的想法和素材转化为生动讲解视频，支持任意模型。",
+  "scenario": "video"
+ },
+ "GitHub:https://github.com/KorenKrita/simul-subtitle": {
+  "isAITool": true,
+  "intro": "一个支持日语、英语的本地离线实时同传悬浮字幕工具，可用于视频和直播，支持 Android、macOS、Windows 平台。",
+  "scenario": "video"
+ },
+ "GitHub:https://github.com/Optima-CityU/OpenArchEvo": {
+  "isAITool": true,
+  "intro": "OpenArchEvo是一个基于LLM生成架构程序并通过种群进化筛选的神经架构搜索框架，特别提供针对脉冲序列模型（SNN）的参考代码和171个架构动物园。",
+  "scenario": "research"
+ },
+ "HF-models:https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy": {
+  "isAITool": true,
+  "intro": "FLUX.3 Image Klein Comfy是Black Forest Labs发布的FLUX.3系列图像生成模型的ComfyUI专用版本，专注于高效高品质图像生成。",
+  "scenario": "image-design"
+ },
+ "GitHub:https://github.com/hanzohanzhe/Grandet": {
+  "isAITool": true,
+  "intro": "Grandet是一个开源工具，可帮助AI Agent自动寻找并连接最便宜的模型API，支持1800+官方、推理和中转提供商的价格列表，通过Grandet Skill和匿名MCP服务器实现。",
+  "scenario": "agents"
+ },
+ "GitHub:https://github.com/Elevatormusic/hermes-warm-compaction": {
+  "isAITool": true,
+  "intro": "Hermes-warm-compaction是一个开源的Agent上下文引擎，通过让主模型在缓存的prompt前缀上写入compaction handoff，实现高效的长期上下文管理。",
+  "scenario": "agents"
+ },
+ "GitHub:https://github.com/wc985732-lang/qq-live-digest": {
+  "isAITool": true,
+  "intro": "一个基于 NapCat/OneBot 的 QQ 群实时摘要工具，利用 AI 过滤闲聊、提取重要通知与待办事项，并推送至微信，同时提供手机端 PWA 待办看板。",
+  "scenario": "agents"
+ },
+ "GitHub:https://github.com/0xgetz/tokenharbor-bulk-creator": {
+  "isAITool": false,
+  "intro": "这是一个使用Playwright批量创建Token Harbor (tokenharbor.ai) 账户和API密钥的自动化脚本，利用临时邮箱服务。",
+  "scenario": "no-code-apps"
+ },
+ "HF-spaces:https://huggingface.co/spaces/raubatz/qwen-image-2.1-uncensored-aio-loras": {
+  "isAITool": true,
+  "intro": "Qwen-Image-2.1-Uncensored-AIO-LoRAs是一个基于Qwen2.1-VL的开源图像生成模型集合，整合了多个去审查LoRA，可在Hugging Face Spaces上直接试用。",
+  "scenario": "image-design"
  }
 }
