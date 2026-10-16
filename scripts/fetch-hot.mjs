@@ -23,11 +23,18 @@ for(const kind of ['models','spaces']){try{
  const j=await get(`https://huggingface.co/api/${kind}?sort=trendingScore&direction=-1&limit=30`);
  for(const m of j){items.push({source:'HF-'+kind,name:m.id,url:`https://huggingface.co/${kind==='spaces'?'spaces/':''}${m.id}`,metric:m.trendingScore??0,metricLabel:`trending（likes ${m.likes}）`,created:m.createdAt});}
 }catch(e){errors.push(String(e))}}
-// Product Hunt: API v2 requires token
-if(process.env.PH_TOKEN){try{
- const r=await fetch('https://api.producthunt.com/v2/api/graphql',{method:'POST',headers:{'content-type':'application/json',authorization:`Bearer ${process.env.PH_TOKEN}`},body:JSON.stringify({query:'{posts(topic:"artificial-intelligence",order:VOTES,first:30,postedAfter:"'+new Date(now-2*day).toISOString()+'"){edges{node{name tagline url votesCount createdAt}}}}'})});
- const j=await r.json();for(const {node:n} of j.data.posts.edges)items.push({source:'PH',name:n.name,desc:n.tagline,url:n.url,metric:n.votesCount,metricLabel:'votes',created:n.createdAt});
-}catch(e){errors.push('PH '+e)}}else errors.push('Product Hunt skipped: no PH_TOKEN');
+// Product Hunt (GraphQL v2). Token: PH_TOKEN, or minted from PH_CLIENT_ID/PH_CLIENT_SECRET.
+let phToken=process.env.PH_TOKEN;
+if(process.env.PH_CLIENT_ID&&process.env.PH_CLIENT_SECRET){try{const r=await fetch('https://api.producthunt.com/v2/oauth/token',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({client_id:process.env.PH_CLIENT_ID,client_secret:process.env.PH_CLIENT_SECRET,grant_type:'client_credentials'})});const j=await r.json();if(j.access_token)phToken=j.access_token;}catch(e){errors.push('PH token mint failed')}}
+if(phToken){try{
+ const PHAI=/artificial-intelligence|machine-learning|ai-|-ai|chatgpt|llm|bots|generative|ai$/;
+ const q=`{posts(order:VOTES,first:50,postedAfter:"${new Date(now-3*day).toISOString()}"){edges{node{id name tagline url votesCount commentsCount createdAt topics{edges{node{slug}}}}}}}`;
+ const r=await fetch('https://api.producthunt.com/v2/api/graphql',{method:'POST',headers:{'content-type':'application/json',authorization:`Bearer ${phToken}`},body:JSON.stringify({query:q})});
+ const j=await r.json();if(!j.data)throw new Error(JSON.stringify(j.errors||j).slice(0,150));
+ for(const {node:n} of j.data.posts.edges){const topics=n.topics.edges.map(e=>e.node.slug);
+  if(!topics.some(t=>PHAI.test(t))&&!AI.test(n.name+' '+n.tagline))continue;
+  items.push({source:'PH',name:n.name,desc:n.tagline,url:n.url.split('?')[0],metric:n.votesCount,metricLabel:`votes（评论 ${n.commentsCount}）`,topics,created:n.createdAt});}
+}catch(e){errors.push('PH '+e.message)}}else errors.push('Product Hunt skipped: no PH_TOKEN');
 // score: z within source, freshness decay
 const W={HN:.20,GitHub:.20,'HF-models':.075,'HF-spaces':.075,PH:.25};
 const by={};for(const i of items)(by[i.source]??=[]).push(i);

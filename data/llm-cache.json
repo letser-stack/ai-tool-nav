@@ -747,5 +747,103 @@
   "intro": "Atticus 是一款 macOS 上的按住说话语音助手，使用 Claude 模型驱动，支持本地运行。",
   "scenario": "productivity",
   "v": 2
+ },
+ "PH:https://www.producthunt.com/products/twelvelabs": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Jockey 是 TwelveLabs 推出的视频理解与搜索工具，能让整个视频库实现组织化、可搜索和深度理解。",
+  "scenario": "video",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/pancake-6": {
+  "isAITool": false,
+  "unsafe": false,
+  "intro": "Pancake 是一款面向 GTM（Go-To-Market）团队的工具，被称为「GTM 领域的 Vercel」。",
+  "scenario": "no-code-apps",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/harness-by-autonomous": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Harness by Autonomous 是一个统一的命令中心平台，用于管理和协调多个 AI 编码 Agent 与机器。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/inferock": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Inferock 是一款无服务器（Serverless）AI 推理平台，对失败的调用会返还积分。",
+  "scenario": "research",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/navige": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Navige 是一款帮助用户降低 AI Agent 成本并控制支出失控的工具。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/z-ai": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "GLM-Legal 是 Z.ai 推出的法律专用 AI 模型，主要用于合同审查和合规性检查。",
+  "scenario": "productivity",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/rtrvr-ai": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Retriever AI 是一款免费的 AI 浏览器智能体，能自动寻找潜在客户、发送消息以及申请职位。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/copilotkit": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "OpenMuse 是一款开源、可自托管的个人助手，支持集成到各种框架和环境中。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/tiden": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Tiden 是一款针对编码 Agent 的意图验证工具，用于提升 AI 编程助手的准确性和可靠性。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/daily-dev": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "daily.dev for agents 是一个专为 AI Agent 设计的发现与资讯平台，帮助智能体发现最新趋势、技术和资源。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/adant-ai": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "AdAnt 2.0 是一款专为社交媒体营销设计的 AI 工具，能帮助用户生成营销内容、优化广告创意并提升社交媒体推广效果。",
+  "scenario": "content",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/pomerado": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Pomerado 是一款能将任意网站转化为 API 的工具，通过可靠的浏览器自动化方式实现数据提取和交互。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/polylane": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Polylane 是一款代码变更影响分析工具，能在 PR 阶段自动检测潜在风险，防止问题进入生产环境。",
+  "scenario": "vibe-coding",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/dereference-the-100x-ide": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Dereference 是一款注重成本效率的顶级编码 Agent，能帮助开发者高效完成编程任务。",
+  "scenario": "vibe-coding",
+  "v": 2
  }
 }
