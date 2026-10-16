@@ -845,5 +845,12 @@
   "intro": "Dereference 是一款注重成本效率的顶级编码 Agent，能帮助开发者高效完成编程任务。",
   "scenario": "vibe-coding",
   "v": 2
+ },
+ "PH:https://www.producthunt.com/products/hintly-for-google-meet": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Hintly for Google Meet 是一款实时提示工具，能在 Google Meet 会议中为你错过的每个术语提供即时提示。",
+  "scenario": "productivity",
+  "v": 2
  }
 }
