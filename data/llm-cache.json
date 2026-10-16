@@ -583,5 +583,20 @@
   "isAITool": true,
   "intro": "Qwen-Image-2.1-Uncensored-AIO-LoRAs是一个基于Qwen2.1-VL的开源图像生成模型集合，整合了多个去审查LoRA，可在Hugging Face Spaces上直接试用。",
   "scenario": "image-design"
+ },
+ "GitHub:https://github.com/hitkeeen/blender-ai-addon": {
+  "isAITool": true,
+  "intro": "Blender AI Addon 是一个开源插件，让用户可以通过与AI聊天（发送文本或图像）来创建和编辑3D模型，AI会自动生成可运行的Blender Python (bpy)代码。",
+  "scenario": "game-dev"
+ },
+ "GitHub:https://github.com/neatlogs/neatroots": {
+  "isAITool": true,
+  "intro": "neatroots是一个本地优先的开源工具，用于查看、检查和重放AI Agent的运行记录，帮助开发者在本地构建和调试AI Agent。",
+  "scenario": "agents"
+ },
+ "GitHub:https://github.com/pullboard-dev/pullboard": {
+  "isAITool": true,
+  "intro": "Pullboard是一个自主开发平台，由受治理的AI Agents根据用户批准的规格进行真实产品的构建，遵循用户设定的规则，并通过多Agent验证后才合并代码。",
+  "scenario": "agents"
  }
 }
