@@ -1,55 +1,361 @@
 [
-{"slug":"vibe-coding","name":"Vibe Coding / AI 编程","desc":"用自然语言驱动写代码、改代码、调试。","tools":[
-{"name":"Cursor","url":"https://cursor.com","intro":"基于 VS Code 的 AI 代码编辑器，支持多文件编辑与 Agent 模式。","bestFor":"日常开发、重构已有项目"},
-{"name":"Claude Code","url":"https://claude.com/product/claude-code","intro":"Anthropic 推出的终端内 AI 编程 Agent。","bestFor":"命令行重度用户、大型代码库改造"},
-{"name":"Trae","url":"https://www.trae.ai","intro":"字节跳动推出的 AI IDE，中文友好。","bestFor":"国内开发者入门"},
-{"name":"Windsurf","url":"https://windsurf.com","intro":"带 Cascade Agent 的 AI 编辑器（2026-10 实测官网已重定向至 devin.ai/desktop）。","bestFor":"Agent 式连续编码"},
-{"name":"GitHub Copilot","url":"https://github.com/features/copilot","intro":"GitHub 官方 AI 编程助手，集成多种 IDE。","bestFor":"团队/企业已用 GitHub 的场景"}]},
-{"slug":"no-code-apps","name":"一句话建应用","desc":"不写代码，用描述直接生成可运行的 Web 应用。","tools":[
-{"name":"Lovable","url":"https://lovable.dev","intro":"对话生成全栈 Web 应用，可接 Supabase。","bestFor":"快速做 MVP / 落地页"},
-{"name":"Bolt","url":"https://bolt.new","intro":"StackBlitz 推出的浏览器内 AI 全栈开发环境。","bestFor":"原型验证"},
-{"name":"v0","url":"https://v0.app","intro":"Vercel 推出的 AI UI/应用生成工具。","bestFor":"React/Next.js 界面生成"},
-{"name":"Replit","url":"https://replit.com","intro":"在线 IDE + Replit Agent，一键部署。","bestFor":"从零到上线一站式"}]},
-{"slug":"agents","name":"AI Agent / 自动化工作流","desc":"搭建智能体与自动化流程，把重复工作交给 AI。","tools":[
-{"name":"n8n","url":"https://n8n.io","intro":"开源可自托管的工作流自动化平台，内置 AI 节点。","bestFor":"技术向自动化、私有部署"},
-{"name":"Dify","url":"https://dify.ai","intro":"开源 LLM 应用开发平台，支持 RAG 与 Agent。","bestFor":"企业知识库问答、Agent 应用"},
-{"name":"扣子 Coze","url":"https://www.coze.cn","intro":"字节跳动的 AI Bot/智能体搭建平台。","bestFor":"零代码做 Bot 并发布到国内渠道"},
-{"name":"Zapier","url":"https://zapier.com","intro":"老牌 SaaS 自动化平台，连接数千应用。","bestFor":"海外 SaaS 串联"},
-{"name":"Manus","url":"https://manus.im","intro":"通用型自主 AI Agent。","bestFor":"多步骤调研与任务执行"}]},
-{"slug":"game-dev","name":"游戏开发","desc":"美术资产、3D 模型、NPC 与小游戏生成。","tools":[
-{"name":"Scenario","url":"https://www.scenario.com","intro":"面向游戏的风格一致美术资产生成。","bestFor":"游戏 2D 美术批量生产"},
-{"name":"Meshy","url":"https://www.meshy.ai","intro":"文本/图片生成 3D 模型与贴图。","bestFor":"3D 道具与原型"},
-{"name":"Tripo","url":"https://www.tripo3d.ai","intro":"VAST 推出的 AI 3D 模型生成。","bestFor":"快速 3D 建模"},
-{"name":"Rosebud AI","url":"https://rosebud.ai","intro":"用对话生成浏览器小游戏。","bestFor":"Vibe coding 小游戏"},
-{"name":"Inworld","url":"https://inworld.ai","intro":"游戏 AI 角色/NPC 对话引擎。","bestFor":"智能 NPC"}]},
-{"slug":"pm","name":"产品经理工作流","desc":"PRD、原型、会议纪要、竞品调研。","tools":[
-{"name":"Notion AI","url":"https://www.notion.com/product/ai","intro":"Notion 内置 AI，写文档、总结、问答。","bestFor":"PRD 与知识管理"},
-{"name":"Figma Make","url":"https://www.figma.com/make/","intro":"Figma 的提示词生成可交互原型功能。","bestFor":"高保真原型"},
-{"name":"墨刀","url":"https://modao.cc","intro":"国产原型设计工具，提供 AI 功能。","bestFor":"国内团队原型协作"},
-{"name":"Granola","url":"https://www.granola.ai","intro":"AI 会议笔记，自动整理纪要。","bestFor":"用户访谈与会议记录"},
-{"name":"Perplexity","url":"https://www.perplexity.ai","intro":"带引用来源的 AI 搜索。","bestFor":"竞品与市场调研"}]},
-{"slug":"content","name":"内容创作","desc":"文案、长文、社媒内容。","tools":[
-{"name":"ChatGPT","url":"https://chatgpt.com","intro":"OpenAI 通用 AI 助手。","bestFor":"通用写作与头脑风暴"},
-{"name":"Claude","url":"https://claude.ai","intro":"Anthropic 的 AI 助手，长文写作表现好。","bestFor":"长文、改稿"},
-{"name":"Kimi","url":"https://www.kimi.com","intro":"月之暗面推出的 AI 助手，长上下文。","bestFor":"中文长文档阅读写作"},
-{"name":"DeepSeek","url":"https://chat.deepseek.com","intro":"深度求索的对话助手。","bestFor":"中文写作、推理"}]},
-{"slug":"image-design","name":"图像与设计","desc":"海报、插画、品牌设计。","tools":[
-{"name":"Midjourney","url":"https://www.midjourney.com","intro":"高质量 AI 图像生成。","bestFor":"艺术风格插画"},
-{"name":"Lovart","url":"https://www.lovart.ai","intro":"设计 Agent，一句话产出整套设计。","bestFor":"品牌物料"},
-{"name":"Canva","url":"https://www.canva.com","intro":"在线设计平台，内置 AI 功能。","bestFor":"社媒图、PPT"},
-{"name":"即梦","url":"https://jimeng.jianying.com","intro":"字节跳动的 AI 图片/视频创作平台。","bestFor":"中文提示词出图"}]},
-{"slug":"video","name":"视频与数字人","desc":"文生视频、剪辑、数字人口播。","tools":[
-{"name":"可灵 Kling","url":"https://kling.ai","intro":"快手推出的 AI 视频生成。","bestFor":"文/图生视频"},
-{"name":"Runway","url":"https://runway.com","intro":"AI 视频生成与编辑工具。","bestFor":"创意视频"},
-{"name":"HeyGen","url":"https://www.heygen.com","intro":"AI 数字人与视频翻译。","bestFor":"口播、多语言视频"},
-{"name":"剪映","url":"https://www.capcut.cn","intro":"字节跳动视频剪辑工具，含 AI 功能。","bestFor":"短视频剪辑"}]},
-{"slug":"audio","name":"音频 / 配音 / 音乐","desc":"配音、音乐、转写。","tools":[
-{"name":"ElevenLabs","url":"https://elevenlabs.io","intro":"AI 语音合成与克隆。","bestFor":"配音、有声书"},
-{"name":"Suno","url":"https://suno.com","intro":"AI 生成完整歌曲。","bestFor":"BGM、歌曲创作"},
-{"name":"通义听悟","url":"https://tingwu.aliyun.com","intro":"阿里的音视频转写与总结。","bestFor":"中文会议转写"}]},
-{"slug":"research","name":"搜索与研究","desc":"信息检索、文献阅读、资料整理。","tools":[
-{"name":"Perplexity","url":"https://www.perplexity.ai","intro":"带引用的 AI 搜索引擎。","bestFor":"快速查证"},
-{"name":"秘塔AI搜索","url":"https://metaso.cn","intro":"无广告中文 AI 搜索。","bestFor":"中文资料检索"},
-{"name":"NotebookLM","url":"https://notebooklm.google.com","intro":"Google 的资料型 AI 笔记本。","bestFor":"基于自有文档研究"},
-{"name":"Elicit","url":"https://elicit.com","intro":"AI 学术文献检索与提取。","bestFor":"论文调研"}]}
+ {
+  "slug": "vibe-coding",
+  "name": "Vibe Coding / AI 编程",
+  "desc": "用自然语言驱动写代码、改代码、调试。",
+  "tools": [
+   {
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "intro": "基于 VS Code 的 AI 代码编辑器，支持多文件编辑与 Agent 模式。",
+    "bestFor": "日常开发、重构已有项目"
+   },
+   {
+    "name": "Claude Code",
+    "url": "https://claude.com/product/claude-code",
+    "intro": "Anthropic 推出的终端内 AI 编程 Agent。",
+    "bestFor": "命令行重度用户、大型代码库改造"
+   },
+   {
+    "name": "Trae",
+    "url": "https://www.trae.ai",
+    "intro": "字节跳动推出的 AI IDE，中文友好。",
+    "bestFor": "国内开发者入门"
+   },
+   {
+    "name": "Windsurf",
+    "url": "https://windsurf.com",
+    "intro": "带 Cascade Agent 的 AI 编辑器（2026-10 实测官网已重定向至 devin.ai/desktop）。",
+    "bestFor": "Agent 式连续编码"
+   },
+   {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "intro": "GitHub 官方 AI 编程助手，集成多种 IDE。",
+    "bestFor": "团队/企业已用 GitHub 的场景"
+   }
+  ]
+ },
+ {
+  "slug": "no-code-apps",
+  "name": "一句话建应用",
+  "desc": "不写代码，用描述直接生成可运行的 Web 应用。",
+  "tools": [
+   {
+    "name": "Lovable",
+    "url": "https://lovable.dev",
+    "intro": "对话生成全栈 Web 应用，可接 Supabase。",
+    "bestFor": "快速做 MVP / 落地页"
+   },
+   {
+    "name": "Bolt",
+    "url": "https://bolt.new",
+    "intro": "StackBlitz 推出的浏览器内 AI 全栈开发环境。",
+    "bestFor": "原型验证"
+   },
+   {
+    "name": "v0",
+    "url": "https://v0.app",
+    "intro": "Vercel 推出的 AI UI/应用生成工具。",
+    "bestFor": "React/Next.js 界面生成"
+   },
+   {
+    "name": "Replit",
+    "url": "https://replit.com",
+    "intro": "在线 IDE + Replit Agent，一键部署。",
+    "bestFor": "从零到上线一站式"
+   }
+  ]
+ },
+ {
+  "slug": "agents",
+  "name": "AI Agent / 自动化工作流",
+  "desc": "搭建智能体与自动化流程，把重复工作交给 AI。",
+  "tools": [
+   {
+    "name": "n8n",
+    "url": "https://n8n.io",
+    "intro": "开源可自托管的工作流自动化平台，内置 AI 节点。",
+    "bestFor": "技术向自动化、私有部署"
+   },
+   {
+    "name": "Dify",
+    "url": "https://dify.ai",
+    "intro": "开源 LLM 应用开发平台，支持 RAG 与 Agent。",
+    "bestFor": "企业知识库问答、Agent 应用"
+   },
+   {
+    "name": "扣子 Coze",
+    "url": "https://www.coze.cn",
+    "intro": "字节跳动的 AI Bot/智能体搭建平台。",
+    "bestFor": "零代码做 Bot 并发布到国内渠道"
+   },
+   {
+    "name": "Zapier",
+    "url": "https://zapier.com",
+    "intro": "老牌 SaaS 自动化平台，连接数千应用。",
+    "bestFor": "海外 SaaS 串联"
+   },
+   {
+    "name": "Manus",
+    "url": "https://manus.im",
+    "intro": "通用型自主 AI Agent。",
+    "bestFor": "多步骤调研与任务执行"
+   }
+  ]
+ },
+ {
+  "slug": "game-dev",
+  "name": "游戏开发",
+  "desc": "美术资产、3D 模型、NPC 与小游戏生成。",
+  "tools": [
+   {
+    "name": "Scenario",
+    "url": "https://www.scenario.com",
+    "intro": "面向游戏的风格一致美术资产生成。",
+    "bestFor": "游戏 2D 美术批量生产"
+   },
+   {
+    "name": "Meshy",
+    "url": "https://www.meshy.ai",
+    "intro": "文本/图片生成 3D 模型与贴图。",
+    "bestFor": "3D 道具与原型"
+   },
+   {
+    "name": "Tripo",
+    "url": "https://www.tripo3d.ai",
+    "intro": "VAST 推出的 AI 3D 模型生成。",
+    "bestFor": "快速 3D 建模"
+   },
+   {
+    "name": "Rosebud AI",
+    "url": "https://rosebud.ai",
+    "intro": "用对话生成浏览器小游戏。",
+    "bestFor": "Vibe coding 小游戏"
+   },
+   {
+    "name": "Inworld",
+    "url": "https://inworld.ai",
+    "intro": "游戏 AI 角色/NPC 对话引擎。",
+    "bestFor": "智能 NPC"
+   }
+  ]
+ },
+ {
+  "slug": "pm",
+  "name": "产品经理工作流",
+  "desc": "PRD、原型、会议纪要、竞品调研。",
+  "tools": [
+   {
+    "name": "Notion AI",
+    "url": "https://www.notion.com/product/ai",
+    "intro": "Notion 内置 AI，写文档、总结、问答。",
+    "bestFor": "PRD 与知识管理"
+   },
+   {
+    "name": "Figma Make",
+    "url": "https://www.figma.com/make/",
+    "intro": "Figma 的提示词生成可交互原型功能。",
+    "bestFor": "高保真原型"
+   },
+   {
+    "name": "墨刀",
+    "url": "https://modao.cc",
+    "intro": "国产原型设计工具，提供 AI 功能。",
+    "bestFor": "国内团队原型协作"
+   },
+   {
+    "name": "Granola",
+    "url": "https://www.granola.ai",
+    "intro": "AI 会议笔记，自动整理纪要。",
+    "bestFor": "用户访谈与会议记录"
+   },
+   {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "intro": "带引用来源的 AI 搜索。",
+    "bestFor": "竞品与市场调研"
+   }
+  ]
+ },
+ {
+  "slug": "content",
+  "name": "内容创作",
+  "desc": "文案、长文、社媒内容。",
+  "tools": [
+   {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "intro": "OpenAI 通用 AI 助手。",
+    "bestFor": "通用写作与头脑风暴"
+   },
+   {
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "intro": "Anthropic 的 AI 助手，长文写作表现好。",
+    "bestFor": "长文、改稿"
+   },
+   {
+    "name": "Kimi",
+    "url": "https://www.kimi.com",
+    "intro": "月之暗面推出的 AI 助手，长上下文。",
+    "bestFor": "中文长文档阅读写作"
+   },
+   {
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "intro": "深度求索的对话助手。",
+    "bestFor": "中文写作、推理"
+   }
+  ]
+ },
+ {
+  "slug": "image-design",
+  "name": "图像与设计",
+  "desc": "海报、插画、品牌设计。",
+  "tools": [
+   {
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "intro": "高质量 AI 图像生成。",
+    "bestFor": "艺术风格插画"
+   },
+   {
+    "name": "Lovart",
+    "url": "https://www.lovart.ai",
+    "intro": "设计 Agent，一句话产出整套设计。",
+    "bestFor": "品牌物料"
+   },
+   {
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "intro": "在线设计平台，内置 AI 功能。",
+    "bestFor": "社媒图、PPT"
+   },
+   {
+    "name": "即梦",
+    "url": "https://jimeng.jianying.com",
+    "intro": "字节跳动的 AI 图片/视频创作平台。",
+    "bestFor": "中文提示词出图"
+   }
+  ]
+ },
+ {
+  "slug": "video",
+  "name": "视频与数字人",
+  "desc": "文生视频、剪辑、数字人口播。",
+  "tools": [
+   {
+    "name": "可灵 Kling",
+    "url": "https://kling.ai",
+    "intro": "快手推出的 AI 视频生成。",
+    "bestFor": "文/图生视频"
+   },
+   {
+    "name": "Runway",
+    "url": "https://runway.com",
+    "intro": "AI 视频生成与编辑工具。",
+    "bestFor": "创意视频"
+   },
+   {
+    "name": "HeyGen",
+    "url": "https://www.heygen.com",
+    "intro": "AI 数字人与视频翻译。",
+    "bestFor": "口播、多语言视频"
+   },
+   {
+    "name": "剪映",
+    "url": "https://www.capcut.cn",
+    "intro": "字节跳动视频剪辑工具，含 AI 功能。",
+    "bestFor": "短视频剪辑"
+   }
+  ]
+ },
+ {
+  "slug": "audio",
+  "name": "音频 / 配音 / 音乐",
+  "desc": "配音、音乐、转写。",
+  "tools": [
+   {
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "intro": "AI 语音合成与克隆。",
+    "bestFor": "配音、有声书"
+   },
+   {
+    "name": "Suno",
+    "url": "https://suno.com",
+    "intro": "AI 生成完整歌曲。",
+    "bestFor": "BGM、歌曲创作"
+   },
+   {
+    "name": "通义听悟",
+    "url": "https://tingwu.aliyun.com",
+    "intro": "阿里的音视频转写与总结。",
+    "bestFor": "中文会议转写"
+   }
+  ]
+ },
+ {
+  "slug": "research",
+  "name": "搜索与研究",
+  "desc": "信息检索、文献阅读、资料整理。",
+  "tools": [
+   {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "intro": "带引用的 AI 搜索引擎。",
+    "bestFor": "快速查证"
+   },
+   {
+    "name": "秘塔AI搜索",
+    "url": "https://metaso.cn",
+    "intro": "无广告中文 AI 搜索。",
+    "bestFor": "中文资料检索"
+   },
+   {
+    "name": "NotebookLM",
+    "url": "https://notebooklm.google.com",
+    "intro": "Google 的资料型 AI 笔记本。",
+    "bestFor": "基于自有文档研究"
+   },
+   {
+    "name": "Elicit",
+    "url": "https://elicit.com",
+    "intro": "AI 学术文献检索与提取。",
+    "bestFor": "论文调研"
+   }
+  ]
+ },
+ {
+  "slug": "productivity",
+  "name": "效率 / 其他",
+  "desc": "个人效率、桌面工具、写作润色、会议转写等通用场景。",
+  "tools": [
+   {
+    "name": "Raycast",
+    "url": "https://www.raycast.com",
+    "intro": "macOS 效率启动器，内置 AI 对话与命令。",
+    "bestFor": "Mac 用户的快捷操作与 AI 助手"
+   },
+   {
+    "name": "Grammarly",
+    "url": "https://www.grammarly.com",
+    "intro": "AI 英文写作检查与润色工具。",
+    "bestFor": "英文邮件、文档润色"
+   },
+   {
+    "name": "Otter.ai",
+    "url": "https://otter.ai",
+    "intro": "AI 会议转写与纪要工具。",
+    "bestFor": "英文会议记录"
+   },
+   {
+    "name": "Superhuman",
+    "url": "https://superhuman.com",
+    "intro": "带 AI 功能的高效邮件客户端。",
+    "bestFor": "重度邮件用户"
+   }
+  ]
+ }
 ]

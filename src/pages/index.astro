@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';import S from '../data/scenarios.json';import H from '../../data/hot.json';import {SITE} from '../site.config.mjs';
 const jsonld=[{"@context":"https://schema.org","@type":"WebSite",name:SITE.name,url:SITE.url+'/',inLanguage:'zh-CN',description:SITE.desc}];
 ---
-<Base title={SITE.name} jsonld={jsonld}><div class="hero"><h1>按业务场景，找到对的 AI 工具</h1><p>10 大场景 · 精选工具 · 每 6 小时自动更新的 AI 热榜（GitHub / Hacker News / Hugging Face）</p></div>
+<Base title={SITE.name} jsonld={jsonld}><div class="hero"><h1>按业务场景，找到对的 AI 工具</h1><p>11 大场景 · 精选工具 · 每 6 小时自动更新的 AI 热榜（GitHub / Hacker News / Hugging Face）</p></div>
 <h2>业务场景</h2><div class="grid">{S.map(s=><a class="card" href={`/s/${s.slug}/`}><h3 style="margin:0 0 6px;color:#1a1d29">{s.name}</h3><div class="muted">{s.desc}</div><p>{s.tools.map(t=><span class="tag">{t.name}</span>)}</p></a>)}</div>
 <h2 style="margin-top:32px">🔥 今日热门 <a class="muted" href="/hot/">查看完整热榜 →</a></h2>
 <div class="grid">{H.items.slice(0,6).map(i=><div class="card"><span class="tag">{i.source}</span><b>{i.score}</b>{i.scenario&&<a class="tag" href={`/s/${i.scenario}/`}>{S.find(s=>s.slug===i.scenario)?.name}</a>}<div style="margin-top:6px"><a href={i.url} target="_blank" rel="nofollow noopener">{i.name}</a></div><div class="muted">{i.intro||i.desc}</div></div>)}</div></Base>

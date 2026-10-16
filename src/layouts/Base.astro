@@ -1,5 +1,6 @@
 ---
 import {SITE,NEWSLETTER_ACTION} from '../site.config.mjs';
+import Analytics from '@vercel/analytics/astro';
 import S from '../data/scenarios.json';
 const { title, description=SITE.desc, jsonld=[] } = Astro.props;
 const canonical=new URL(Astro.url.pathname,SITE.url).href;
@@ -33,4 +34,4 @@ details{background:#fff;border:1px solid #e6e8f0;border-radius:10px;padding:12px
 <form action={NEWSLETTER_ACTION} method="post" target="_blank" class="embeddable-buttondown-form"><label for="bd-email" class="muted">邮箱</label> <input id="bd-email" type="email" name="email" required placeholder="you@example.com" autocomplete="email"/> <button type="submit">订阅</button></form>
 <p class="muted" style="font-size:12px;margin-bottom:0">提交后将在新窗口完成确认 · <a href="https://buttondown.com/refer/lester0818" target="_blank" rel="noopener">Powered by Buttondown</a></p>
 </section></main>
-<footer><div>{S.map(s=><a href={`/s/${s.slug}/`}>{s.name}</a>)}</div><p>数据来自公开 API 与官网，每 6 小时自动更新 · 定价请以官网为准 · <a href="/llms.txt">llms.txt</a></p></footer></body></html>
+<footer><div>{S.map(s=><a href={`/s/${s.slug}/`}>{s.name}</a>)}</div><p>数据来自公开 API 与官网，每 6 小时自动更新 · 定价请以官网为准 · <a href="/llms.txt">llms.txt</a></p></footer><Analytics /></body></html>
