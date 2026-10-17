@@ -1,5 +1,11 @@
 {
  "https://github.com/SaarthurR/atticus-mac": {
   "intro": "Atticus 是一款 macOS 上按住说话的语音助手，底层通过 Claude 命令行（claude -p）调用 Claude 模型。"
+ },
+ "https://github.com/NousResearch/hermes-official-plugins": {
+  "intro": "Nous Research 官方维护的 Hermes Agent 插件合集，包含 Home Assistant、Spotify 等插件，可从 Hermes 插件目录一键安装。"
+ },
+ "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0": {
+  "intro": "基于 Qwen3.8-27B 的 2-bit GGUF 量化模型，体积不到 8GB，重点保留工具调用能力，可直接用 llama.cpp 运行。"
  }
 }

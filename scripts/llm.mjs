@@ -28,10 +28,11 @@ export async function enrich(items){
     if(!r.ok)throw new Error('xAI '+r.status+' '+(await r.text()).slice(0,120));
     const j=await r.json();calls++;usage.prompt+=j.usage?.prompt_tokens||0;usage.completion+=j.usage?.completion_tokens||0;return JSON.parse(j.choices[0].message.content);};
   for(const i of items){const id=i.source+':'+i.url;
-    if((!cache[id]||cache[id].v!==2)&&key&&!err){try{
+    const retry=cache[id]&&cache[id].isAITool&&!cjkOk(cache[id].intro)&&(cache[id].tries||1)<3;
+    if((!cache[id]||cache[id].v!==2||retry)&&key&&!err){try{
       let o=await ask(i);
       if(o.isAITool&&!cjkOk(o.intro)){rejected++;o=await ask(i,'\n注意：上次简介不是简体中文，请务必用简体中文重写。');if(!cjkOk(o.intro))o.intro='';}
-      cache[id]={...o,v:2};
+      cache[id]={...o,v:2,...(o.isAITool&&!o.intro?{tries:(cache[id]?.tries||0)+1}:{})};
     }catch(e){err=String(e)}}
     const c=cache[id];if(c)Object.assign(i,{isAITool:c.isAITool,unsafe:!!c.unsafe,intro:cjkOk(c.intro)?c.intro:'',scenario:SC[c.scenario]?c.scenario:'productivity'});
   }

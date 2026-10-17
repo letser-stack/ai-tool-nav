@@ -571,7 +571,7 @@
    "mergedUrls": [],
    "isAITool": true,
    "unsafe": false,
-   "intro": "",
+   "intro": "Nous Research 官方维护的 Hermes Agent 插件合集，包含 Home Assistant、Spotify 等插件，可从 Hermes 插件目录一键安装。",
    "scenario": "agents"
   },
   {
@@ -1455,7 +1455,7 @@
    "mergedUrls": [],
    "isAITool": true,
    "unsafe": false,
-   "intro": "",
+   "intro": "基于 Qwen3.8-27B 的 2-bit GGUF 量化模型，体积不到 8GB，重点保留工具调用能力，可直接用 llama.cpp 运行。",
    "scenario": "research"
   },
   {
