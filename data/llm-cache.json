@@ -852,5 +852,61 @@
   "intro": "Hintly for Google Meet 是一款实时提示工具，能在 Google Meet 会议中为你错过的每个术语提供即时提示。",
   "scenario": "productivity",
   "v": 2
+ },
+ "GitHub:https://github.com/azrinaldi/gemini-stealth-bridge": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "一个基于无头Chrome uTLS和HTTP/2的守护进程，提供与OpenAI兼容的API接口，可通过Google Gemini网页版实现/v1/chat/completions和/v1/responses功能。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/fish-speech": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Fish Audio Drama 3 是一款可直接指挥的 AI 语音演绎工具，用户不仅能生成声音，还能像导演一样对 AI 配音进行实时指导和调整。",
+  "scenario": "audio",
+  "v": 2
+ },
+ "GitHub:https://github.com/RayenMlayeh/jevcrawl": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Jevcrawl 是一个 MCP 服务器和命令行工具，专为 AI Agent 设计，能高效爬取网站并定位答案页面，据称比 Crawl4AI 找到答案页面的概率高 2 倍，且成本仅为 Claude 直接爬取的十分之一。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "GitHub:https://github.com/songconmaisaix31-design/mcpet": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "一个桌面宠物AI工具，能将写代码时的AI助手拟人化为穿麦当劳制服的角色，放置在桌面角落，提供定时提醒吃饭、优惠券推荐、营养把关，并在运行长任务时同步显示项目进度与token余额。",
+  "scenario": "vibe-coding",
+  "v": 2
+ },
+ "GitHub:https://github.com/janetom645-coder/mcd-buddy": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "一个基于麦当劳中国官方 MCP 的开源 Skill 项目，集成了修行录、团餐指挥官、隐藏菜单实验室、每日运势签四种玩法，支持离线演示一键复现。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "GitHub:https://github.com/Optima-CityU/OpenArchEvo": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "OpenArchEvo 是一个基于大语言模型（LLM）的架构搜索框架，LLM 负责编写架构程序，结合种群进化算法决定哪些架构得以保留，提供了参考代码和包含 171 个架构的模型库，专注于原生脉冲序列模型（spiking sequence models）。",
+  "scenario": "vibe-coding",
+  "v": 2
+ },
+ "GitHub:https://github.com/Elevatormusic/hermes-warm-compaction": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Hermes Agent 上下文引擎，通过主模型在缓存的 prompt prefix 上写入 compaction handoff 来实现高效的上下文管理。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "HF-models:https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "NVIDIA发布的Qwen3.8B Flash Next FP4量化版本，本地运行的轻量级大语言模型。",
+  "scenario": "research",
+  "v": 2
  }
 }
