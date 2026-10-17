@@ -908,5 +908,75 @@
   "intro": "NVIDIA发布的Qwen3.8B Flash Next FP4量化版本，本地运行的轻量级大语言模型。",
   "scenario": "research",
   "v": 2
+ },
+ "GitHub:https://github.com/anujasid/blender-ai-mcp-addon": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Blender AI MCP 插件是一个为 Blender 提供的 AI 助手和 MCP 服务器，支持视觉聊天、场景工具、多代理工作流，可与 ChatGPT、Claude、Gemini、Ollama、OpenCode 等模型集成，实现 3D 建模辅助、bpy Python 脚本编写等功能。",
+  "scenario": "game-dev",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/dottr": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Dottr 是一款 AI 智能体，能自动起草合同、识别潜在风险并完成电子签名。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "HN:https://llmspeed.dev/": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Llmspeed 是一个在线工具，帮助用户在购买硬件前，通过模拟方式感受本地 LLM 的实际运行速度。",
+  "scenario": "productivity",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/withhuman": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "withHuman 是一个开源的人类审批层，用于为 AI Agent 添加人工审核和批准机制。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/chatway": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Chatway MCP 是一款通过 MCP 协议让 ChatGPT 和 Claude 自动回复客户支持工单的 AI 工具。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "HF-models:https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "DeepSeek-V4.1-Flash-1017 是 DeepSeek 发布的开源大语言模型，支持高效推理和多语言能力。",
+  "scenario": "research",
+  "v": 2
+ },
+ "GitHub:https://github.com/Lemon177777/mcd-omni-assistant": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "麦当劳 MCP 全能助手是一个开源项目，提供覆盖领券、点餐、外送、派对预约、积分管理等 35 个工具和 7 大工作流，并附带零依赖 CLI 通道。",
+  "scenario": "agents",
+  "v": 2
+ },
+ "HF-models:https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "MOSS-Image-SFT 是 OpenMOSS-Team 在 Hugging Face 上发布的图像微调模型，用于提升 MOSS 系列模型的多模态图像理解与生成能力。",
+  "scenario": "image-design",
+  "v": 2
+ },
+ "HF-spaces:https://huggingface.co/spaces/hitman911/wan2-2-fp8da-aoti-preview-2c-finishing": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "这是一个基于Wan2.2模型的Hugging Face Space演示项目，使用FP8精度和AOTI优化，主要用于视频生成或图像到视频的处理任务。",
+  "scenario": "video",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/nitrostack": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "NitroStack 是一个一站式平台，用于构建、测试和部署 MCP 服务器。",
+  "scenario": "agents",
+  "v": 2
  }
 }
