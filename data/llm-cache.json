@@ -123,7 +123,8 @@
   "unsafe": false,
   "intro": "",
   "scenario": "agents",
-  "v": 2
+  "v": 2,
+  "tries": 1
  },
  "HN:https://github.com/maharshi365/deslop": {
   "isAITool": true,
@@ -508,7 +509,8 @@
   "unsafe": false,
   "intro": "",
   "scenario": "research",
-  "v": 2
+  "v": 2,
+  "tries": 1
  },
  "HF-spaces:https://huggingface.co/spaces/lightonai/LightOnOCR-3-Demo": {
   "isAITool": true,
@@ -977,6 +979,41 @@
   "unsafe": false,
   "intro": "NitroStack 是一个一站式平台，用于构建、测试和部署 MCP 服务器。",
   "scenario": "agents",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/emochi-2": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Emochi 是一款语音日记应用，通过艺术和科学的方式帮助用户理解自我。",
+  "scenario": "productivity",
+  "v": 2
+ },
+ "PH:https://www.producthunt.com/products/train-with-pasta": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Train with Pasta 是一款由 Apple Intelligence 驱动的个人训练应用，能根据用户需求提供智能健身指导。",
+  "scenario": "productivity",
+  "v": 2
+ },
+ "GitHub:https://github.com/raullenchai/esp32-thinks": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "ESP32上的多模型个人AI语音助手，支持唤醒词或旋钮触发，可自由搭配任意OpenAI兼容的STT、聊天和TTS模型，实现流式回复，开箱即用。基于muse-gadget-sdk构建。",
+  "scenario": "audio",
+  "v": 2
+ },
+ "HF-spaces:https://huggingface.co/spaces/speridlabs/iris-3b": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "Iris-3B 是 Sperid Labs 推出的一个 3B 参数的多模态 AI 模型，支持图像理解与生成相关任务。",
+  "scenario": "image-design",
+  "v": 2
+ },
+ "HF-models:https://huggingface.co/autotrust/JEV-27B-VL": {
+  "isAITool": true,
+  "unsafe": false,
+  "intro": "JEV-27B-VL 是基于 27B 参数规模的多模态视觉语言模型，支持图像理解与文本交互。",
+  "scenario": "research",
   "v": 2
  }
 }
